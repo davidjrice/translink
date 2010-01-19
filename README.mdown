@@ -1,6 +1,8 @@
 # Translink
 
-Here is route data for translink. Based on data extracted originally by David Wilson and then modified by Stephen Stewart.
+Here is route data for translink. 
+
+Based on data extracted originally by David Wilson and then modified by Stephen Stewart. HTML5 canvas view by Stephen.
 
 ## Rough Plan
 
