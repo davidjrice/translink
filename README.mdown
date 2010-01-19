@@ -18,3 +18,12 @@ Based on data extracted originally by David Wilson and then modified by Stephen 
 * fork this repository
 * work, make changes locally and then push to github
 * at this point send a pull request and patches will be pulled in.
+
+## Running
+
+* Install ruby, rubygems, rack (gem), sinatra (gem)
+    
+    cd translink && rackup
+
+* done
+* visit http://0.0.0.0:9292
