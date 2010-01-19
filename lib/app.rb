@@ -3,7 +3,7 @@ class App < Sinatra::Base
   set :public, 'public'
   set :static, true
   
-  get '/'
+  get '/' do
     redirect '/index.html'
   end
   
