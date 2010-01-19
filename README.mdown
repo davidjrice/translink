@@ -1,0 +1,11 @@
+# Translink
+
+Here is route data for translink. Based on data extracted originally by David Wilson and then modified by Stephen Stewart.
+
+## Rough Plan
+
+* Stops are not in the correct order. *need to confirm this, I checked many and they look okay... -djr*
+* Should be able to visualize data 100% correctly using the index.html HTML5 canvas at that point. 
+* Timetable data needs extracted in a compatible JSON format. **timetables.json**
+* Then we need to add live-updating bus positions. With timetable data we can approximate these.
+* It is at this point where we also want to have investigated overlaying using google maps, to get routes mapped onto roads.
