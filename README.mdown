@@ -9,3 +9,10 @@ Here is route data for translink. Based on data extracted originally by David Wi
 * Timetable data needs extracted in a compatible JSON format. **timetables.json**
 * Then we need to add live-updating bus positions. With timetable data we can approximate these.
 * It is at this point where we also want to have investigated overlaying using google maps, to get routes mapped onto roads.
+
+## Contributing
+
+* create a github account
+* fork this repository
+* work, make changes locally and then push to github
+* at this point send a pull request and patches will be pulled in.
