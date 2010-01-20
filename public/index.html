@@ -1,71 +1,41 @@
 <!doctype html>
-<title>Translink Metro Lines</title>
+<title>Translink</title>
 <style>
-  body {background-color:#fff;font-family:Gill Sans, sans-serif;font-size:10px;text-transform:uppercase}
+  body {background-color:#fff;font-family:Gill Sans, sans-serif;font-size:1em;text-transform:uppercase}
   h1,h2,h3 {font-weight:normal}
   p {color:#444;width:300px}
   canvas {width:2400px;height:1600px;display:block}
   section {display:block}
 </style>
-<script src="js/routes.json"></script>
-<script src="js/processing.min.js"></script>
-<script src="js/init.js"></script>
+<h1>Open Translink</h1>
 <section>
-<p>Stop order is wrong.
-<p>Forked from @carisenda
+<p>Here lies within a collection of translink related projects from various contributors in Belfast.
+<ul id="contributors">
+  <li><a href="http://carisenda.com/">Stephen Stewart</a></li>
+  <li><a href="http://goodonpaper.org">Andy McMillan</a></li>
+  <li><a href="http://davidjrice.co.uk">David Rice</a></li>
+  <li><a href="http://twitter.com/davidbelfast">David Wilson</a></li>
+</ul>
+<p>Some of the code has been written during <a href="http://code4pizza.com">#code4pizza</a> evenings. Organised by <a href="http://cimota.com/blog/">Matt Johnston</a></p>
+
+<h2>Resources</h2>
+<ul>
+  <li><a href="http://code4pizza.com/wiki/index.php/OPENTRANSLINK">#code4pizza wiki</a></li>
+  <li>(This) Open Source code repository <a href="http://github.com/davidjrice/translink">http://github.com/davidjrice/translink</a></li>
+</ul>
+
+<h2>Data</h2>
+<ul>
+  <li><a href="/data/routes-ne.json">routes-ne.json</a> Route data. With Irish grid reference coordinates</li>
+  <li><a href="/data/routes-ne.json">routes.json</a> Route data. With WGS-84 coordinates</li>
+  <li><a href="/data/services.json">services.json</a> data of all the different Metro bus services</li>
+</ul>
+
+<h2>Examples</h2>
+<ul>
+  <li><a href="/stops-map.html">stops-map.html</a> Google Map of the Stops</li>
+  <li><a href="/processing.html">processing.html</a> Line drawing of the Metro bus routes using Processing</li>
+  <li><a href="http://goodonpaper.org/sandbox/translink/">iPhone example</a> (external) prototype iPhone timetable</li>
+</ul>
+
 </section>
-<script type="application/processing">
-  var MinX = Number.MAX_VALUE;
-  var MaxX = Number.MIN_VALUE;
-  var MinY = Number.MAX_VALUE;
-  var MaxY = Number.MIN_VALUE;
-  var MinH = Number.MAX_VALUE;
-  var MaxH = Number.MIN_VALUE;
-
-  void setup() {
-    size(2400, 1600);  // Size should be the first statement
-    background(0);
-    stroke(256);
-    noFill();
-    noLoop();
-    PFont fontA = loadFont("Lucida Grande");
-    textFont(fontA, 14);
-    for (var route in myTranslink) {
-      var len = myTranslink[route].length;
-      for (i=0;i<len;i++) {
-        float x = myTranslink[route][i].east;
-        float y = myTranslink[route][i].north;
-        if (x > MaxX) {
-          MaxX = x;
-        }
-        if (x < MinX) {
-          MinX = x;
-        }       
-        if (y > MaxY) {
-          MaxY = y;
-        }
-        if (y < MinY) {
-          MinY = y;
-        }       
-      }
-    }
-  }
-  void draw() { 
-    for (var route in myTranslink) {
-      var len = myTranslink[route].length;
-      beginShape();
-      for (i=0;i<len;i++) {
-        float x = (myTranslink[route][i].east);
-        float y = (myTranslink[route][i].north);
-        float xx = map(x, MinX, MaxX, 50, 2350);
-        float yy = map(y, MinY, MaxY, 1550, 50);
-        curveVertex(xx,yy);
-       // text(route + myTranslink[route][i].stopname, xx,yy);
-      }
-      endShape();
-    }
-  }
-
-  </script>
-
-<canvas></canvas>
