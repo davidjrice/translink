@@ -1,4 +1,5 @@
-[
-  {"journeys":[[{"stop":"Short Strand, Albertbridge\nRd","time":"0510"},{"stop":"Connswater, Newtownards Rd","time":"0512"},{"stop":"Ballyhackamore, Village","time":"0515"},{"stop":"Upper Newtownards Rd, Knock\nRoad","time":"0517"},{"stop":"Upper Newtownards Rd,\nRosepark","time":"0520"},{"stop":"Dundonald, Ulster Hospital","time":"0522"}]],"frequency":"weekday"},
-  {"journeys":[[{"stop":"Short Strand, Albertbridge\nRd","time":"0510"},{"stop":"Connswater, Newtownards Rd","time":"0512"},{"stop":"Ballyhackamore, Village","time":"0515"},{"stop":"Upper Newtownards Rd, Knock\nRoad","time":"0517"},{"stop":"Upper Newtownards Rd,\nRosepark","time":"0520"},{"stop":"Dundonald, Ulster Hospital","time":"0522"}]],"frequency":"saturday"}
-]
+{
+  "weekdays": {"journeys":[[{"stop":"Short Strand, Albertbridge\nRd","time":"0510"},{"stop":"Connswater, Newtownards Rd","time":"0512"},{"stop":"Ballyhackamore, Village","time":"0515"},{"stop":"Upper Newtownards Rd, Knock\nRoad","time":"0517"},{"stop":"Upper Newtownards Rd,\nRosepark","time":"0520"},{"stop":"Dundonald, Ulster Hospital","time":"0522"}]],"frequency":"weekdays"},
+  "sunday": null,
+  "saturday": {"journeys":[[{"stop":"Short Strand, Albertbridge\nRd","time":"0510"},{"stop":"Connswater, Newtownards Rd","time":"0512"},{"stop":"Ballyhackamore, Village","time":"0515"},{"stop":"Upper Newtownards Rd, Knock\nRoad","time":"0517"},{"stop":"Upper Newtownards Rd,\nRosepark","time":"0520"},{"stop":"Dundonald, Ulster Hospital","time":"0522"}]],"frequency":"saturday"}
+}
