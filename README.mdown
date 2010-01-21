@@ -26,4 +26,11 @@ Based on data extracted originally by David Wilson and then modified by Stephen 
     cd translink && rackup
 
 * done
-* visit http://0.0.0.0:9292
+* visit http://0.0.0.0:9292  
+
+## TODO
+
+* normalize stops (remove duplicates & assign unique ids)
+* link stops to routes & timetable data
+* add street names to route data
+* extract major / minor services i.e. 9 > 9a
