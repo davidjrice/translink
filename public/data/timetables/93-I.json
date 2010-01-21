@@ -1,1 +1,3 @@
-[null]
+[
+  {"journeys":[[{"stop":"Newforge Lane, Bus stop","time":"1710"},{"stop":"Malone Road, Cranmore Park","time":"1716"},{"stop":"Queens University, Elmwood\nAve","time":"1720"},{"stop":"Bradbury Place, Bus stop","time":"1722"},{"stop":"Belfast, Great Northern Mall","time":"1724"},{"stop":"Belfast, Wellington Place","time":"1728"}]],"frequency":"weekday"}
+]

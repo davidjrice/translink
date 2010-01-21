@@ -1,1 +1,3 @@
-[{"journeys":[],"frequency":"weekday"}]
+[
+  {"journeys":[[{"stop":"Ladybrook, Turning Circle","time":"0740"},{"stop":"Blacks Road, Oakhurst","time":"0743"},{"stop":"Belfast, (Europa Buscentre)","time":"0754"},{"stop":"Belfast, Wellington Place","time":"0800"}],[{"stop":"Ladybrook, Turning Circle","time":"0810"},{"stop":"Blacks Road, Oakhurst","time":"0813"},{"stop":"Belfast, (Europa Buscentre)","time":"0826"},{"stop":"Belfast, Wellington Place","time":"0832"}]],"frequency":"weekday"}
+]

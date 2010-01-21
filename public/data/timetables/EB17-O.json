@@ -1,1 +1,3 @@
-[{"journeys":[],"frequency":null}]
+[
+  {"journeys":[[{"stop":"Tesco, Abbey Retail Park Church\nRoad","time":"1355"},{"stop":"Abbeycentre, Shore entrance\n(Dunnes)","time":"1405"},{"stop":"Carnmoney, Cemetery","time":"1410"},{"stop":"Fairview Rd, Beverley Shops","time":"1415"},{"stop":"Carnmoney, Cemetery","time":"1425"},{"stop":"Tesco, Abbey Retail Park Church\nRoad","time":"1430"},{"stop":"Abbeycentre, Shore entrance\n(Dunnes)","time":"1435"}],[{"stop":"Tesco, Abbey Retail Park Church\nRoad","time":"1510"},{"stop":"Abbeycentre, Shore entrance\n(Dunnes)","time":"1520"},{"stop":"Carnmoney, Cemetery","time":"1525"},{"stop":"Fairview Rd, Beverley Shops","time":"1530"},{"stop":"Carnmoney, Cemetery","time":"1540"},{"stop":"Tesco, Abbey Retail Park Church\nRoad","time":"1545"},{"stop":"Abbeycentre, Shore entrance\n(Dunnes)","time":"1550"}]],"frequency":null}
+]

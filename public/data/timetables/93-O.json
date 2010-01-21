@@ -1,1 +1,3 @@
-[null]
+[
+  {"journeys":[[{"stop":"Belfast, Donegall Sq East","time":"0832"},{"stop":"Bedford Street, Ulster Hall","time":"0833"},{"stop":"Bradbury Place, Bus stop","time":"0836"},{"stop":"Queens University, Elmwood\nAve","time":"0838"},{"stop":"Malone Road, Cranmore Park","time":"0842"},{"stop":"Newforge Lane, Bus stop","time":"0849"}]],"frequency":"weekday"}
+]
