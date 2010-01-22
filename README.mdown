@@ -30,5 +30,6 @@ Based on data extracted originally by David Wilson and then modified by Stephen 
 
 ## TODO
 
-* normalize stops (remove duplicates & assign unique ids)
 * link stops to routes & timetable data
+* Check stop ordering after recent extraction. Order stops based on. Timetables
+* Work out what to do with the "Unknown" stops. Delimited by X in the routes.json. These were a bunch of stops that were not defined as inward / outward. If we can do this when syncing up with the timetable data that would be awesome.
