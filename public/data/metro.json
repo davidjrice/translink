@@ -1,5 +1,5 @@
-var myTranslink = {
-   "route_10F" : [
+{
+   "10F" : [
       {
          "direction" : "Inward",
          "lat" : 54.5682410818966,
@@ -477,7 +477,7 @@ var myTranslink = {
          "lon" : -5.97655710618258
       }
    ],
-   "route_7D" : [
+   "7D" : [
       {
          "direction" : "Outward",
          "lat" : 54.5890850338693,
@@ -745,7 +745,7 @@ var myTranslink = {
          "lon" : -5.93433794253656
       }
    ],
-   "route_2F" : [
+   "2F" : [
       {
          "direction" : "Outward",
          "lat" : 54.6055872050355,
@@ -1062,7 +1062,7 @@ var myTranslink = {
          "lon" : -5.93164100795711
       }
    ],
-   "route_93" : [
+   "93" : [
       {
          "direction" : "Outward",
          "lat" : 54.5889963137304,
@@ -1253,7 +1253,7 @@ var myTranslink = {
          "lon" : -5.93455989620547
       }
    ],
-   "route_91" : [
+   "91" : [
       {
          "direction" : "Outward",
          "lat" : 54.5893527544157,
@@ -1423,7 +1423,7 @@ var myTranslink = {
          "lon" : -5.9625197333639
       }
    ],
-   "route_30" : [
+   "30" : [
       {
          "direction" : "Outward",
          "lat" : 54.5841148045752,
@@ -1670,7 +1670,7 @@ var myTranslink = {
          "lon" : -5.92993152053757
       }
    ],
-   "route_23" : [
+   "23" : [
       {
          "direction" : "Outward",
          "lat" : 54.60085169287,
@@ -2127,7 +2127,7 @@ var myTranslink = {
          "lon" : -5.93144679246222
       }
    ],
-   "route_31" : [
+   "31" : [
       {
          "direction" : "Outward",
          "lat" : 54.60085169287,
@@ -2332,7 +2332,7 @@ var myTranslink = {
          "lon" : -5.93140406933523
       }
    ],
-   "route_94" : [
+   "94" : [
       {
          "direction" : "Outward",
          "lat" : 54.60085169287,
@@ -2516,7 +2516,7 @@ var myTranslink = {
          "lon" : -5.85792523904972
       }
    ],
-   "route_6" : [
+   "6" : [
       {
          "direction" : "Other",
          "lat" : 54.6015087468134,
@@ -2525,7 +2525,7 @@ var myTranslink = {
          "lon" : -5.9311913911678
       }
    ],
-   "route_1B" : [
+   "1B" : [
       {
          "direction" : "Outward",
          "lat" : 54.6049177405977,
@@ -2940,7 +2940,7 @@ var myTranslink = {
          "lon" : -5.93169553638995
       }
    ],
-   "route_89" : [
+   "89" : [
       {
          "direction" : "Inward",
          "lat" : 54.5845072120541,
@@ -3173,8 +3173,8 @@ var myTranslink = {
          "lon" : -5.97655710618258
       }
    ],
-   "route_26A" : [],
-   "route_1A" : [
+   "26A" : [],
+   "1A" : [
       {
          "direction" : "Outward",
          "lat" : 54.6049177405977,
@@ -3589,7 +3589,7 @@ var myTranslink = {
          "lon" : -5.93169553638995
       }
    ],
-   "route_NL2" : [
+   "NL2" : [
       {
          "direction" : "CityCentre",
          "lat" : 54.5967017005877,
@@ -3598,7 +3598,7 @@ var myTranslink = {
          "lon" : -5.93171374454615
       }
    ],
-   "route_80A" : [
+   "80A" : [
       {
          "direction" : "Outward",
          "lat" : 54.5964825658511,
@@ -3866,7 +3866,7 @@ var myTranslink = {
          "lon" : -5.96487199159616
       }
    ],
-   "route_13C" : [
+   "13C" : [
       {
          "direction" : "Inward",
          "lat" : 54.6105494528681,
@@ -3917,7 +3917,7 @@ var myTranslink = {
          "lon" : -5.93171374454615
       }
    ],
-   "route_NL5" : [
+   "NL5" : [
       {
          "direction" : "CityCentre",
          "lat" : 54.5963732330455,
@@ -3926,7 +3926,7 @@ var myTranslink = {
          "lon" : -5.93142091404471
       }
    ],
-   "route_29" : [
+   "29" : [
       {
          "direction" : "Outward",
          "lat" : 54.6185183065024,
@@ -4390,7 +4390,7 @@ var myTranslink = {
          "lon" : -5.85020994812007
       }
    ],
-   "route_10D" : [
+   "10D" : [
       {
          "direction" : "Outward",
          "lat" : 54.5996073694905,
@@ -4805,7 +4805,7 @@ var myTranslink = {
          "lon" : -5.99440149984197
       }
    ],
-   "route_13A" : [
+   "13A" : [
       {
          "direction" : "Inward",
          "lat" : 54.6105494528681,
@@ -4863,7 +4863,7 @@ var myTranslink = {
          "lon" : -5.93171374454615
       }
    ],
-   "route_29A" : [
+   "29A" : [
       {
          "direction" : "Outward",
          "lat" : 54.5890850338693,
@@ -5131,7 +5131,7 @@ var myTranslink = {
          "lon" : -5.91778259757393
       }
    ],
-   "route_20A" : [
+   "20A" : [
       {
          "direction" : "Outward",
          "lat" : 54.60085169287,
@@ -5595,7 +5595,7 @@ var myTranslink = {
          "lon" : -5.93144679246222
       }
    ],
-   "route_2A" : [
+   "2A" : [
       {
          "direction" : "Outward",
          "lat" : 54.6055872050355,
@@ -6052,7 +6052,7 @@ var myTranslink = {
          "lon" : -5.93164100795711
       }
    ],
-   "route_1G" : [
+   "1G" : [
       {
          "direction" : "Outward",
          "lat" : 54.6049177405977,
@@ -6467,7 +6467,7 @@ var myTranslink = {
          "lon" : -5.93169553638995
       }
    ],
-   "route_EB6" : [
+   "EB6" : [
       {
          "direction" : "Inward",
          "lat" : 54.5772202345205,
@@ -6497,7 +6497,7 @@ var myTranslink = {
          "lon" : -5.92843344356226
       }
    ],
-   "route_13B" : [
+   "13B" : [
       {
          "direction" : "Inward",
          "lat" : 54.6038599413288,
@@ -6527,7 +6527,7 @@ var myTranslink = {
          "lon" : -5.93171374454615
       }
    ],
-   "route_14" : [
+   "14" : [
       {
          "direction" : "Inward",
          "lat" : 54.6105494528681,
@@ -6585,7 +6585,7 @@ var myTranslink = {
          "lon" : -5.93171374454615
       }
    ],
-   "route_12C" : [
+   "12C" : [
       {
          "direction" : "CityCentre",
          "lat" : 54.5973293045528,
@@ -6951,7 +6951,7 @@ var myTranslink = {
          "lon" : -5.96487199159616
       }
    ],
-   "route_14A" : [
+   "14A" : [
       {
          "direction" : "Inward",
          "lat" : 54.6105494528681,
@@ -7009,7 +7009,7 @@ var myTranslink = {
          "lon" : -5.93171374454615
       }
    ],
-   "route_12A" : [
+   "12A" : [
       {
          "direction" : "CityCentre",
          "lat" : 54.5973293045528,
@@ -7333,7 +7333,7 @@ var myTranslink = {
          "lon" : -5.96487199159616
       }
    ],
-   "route_61" : [
+   "61" : [
       {
          "direction" : "Outward",
          "lat" : 54.6099551867514,
@@ -7713,7 +7713,7 @@ var myTranslink = {
          "lon" : -5.95979818429802
       }
    ],
-   "route_2C" : [
+   "2C" : [
       {
          "direction" : "Inward",
          "lat" : 54.6038599413288,
@@ -7722,7 +7722,7 @@ var myTranslink = {
          "lon" : -5.9294470139826
       }
    ],
-   "route_214" : [
+   "214" : [
       {
          "direction" : "Other",
          "lat" : 54.5640872619714,
@@ -7766,7 +7766,7 @@ var myTranslink = {
          "lon" : -6.00411332232012
       }
    ],
-   "route_12B" : [
+   "12B" : [
       {
          "direction" : "CityCentre",
          "lat" : 54.5973293045528,
@@ -8167,7 +8167,7 @@ var myTranslink = {
          "lon" : -5.96487199159616
       }
    ],
-   "route_20" : [
+   "20" : [
       {
          "direction" : "Outward",
          "lat" : 54.60085169287,
@@ -8659,7 +8659,7 @@ var myTranslink = {
          "lon" : -5.93144679246222
       }
    ],
-   "route_10B" : [
+   "10B" : [
       {
          "direction" : "Outward",
          "lat" : 54.5738693390283,
@@ -9214,7 +9214,7 @@ var myTranslink = {
          "lon" : -5.99440149984197
       }
    ],
-   "route_10C" : [
+   "10C" : [
       {
          "direction" : "Outward",
          "lat" : 54.5996073694905,
@@ -9657,7 +9657,7 @@ var myTranslink = {
          "lon" : -5.99440149984197
       }
    ],
-   "route_57A" : [
+   "57A" : [
       {
          "direction" : "Outward",
          "lat" : 54.6145279238895,
@@ -9897,7 +9897,7 @@ var myTranslink = {
          "lon" : -5.93039900210171
       }
    ],
-   "route_82A" : [
+   "82A" : [
       {
          "direction" : "Outward",
          "lat" : 54.592922651211,
@@ -10494,7 +10494,7 @@ var myTranslink = {
          "lon" : -6.0121103875401
       }
    ],
-   "route_8C" : [
+   "8C" : [
       {
          "direction" : "Outward",
          "lat" : 54.5889963137304,
@@ -10958,7 +10958,7 @@ var myTranslink = {
          "lon" : -5.93455989620547
       }
    ],
-   "route_14C" : [
+   "14C" : [
       {
          "direction" : "Inward",
          "lat" : 54.6105494528681,
@@ -10995,7 +10995,7 @@ var myTranslink = {
          "lon" : -5.93171374454615
       }
    ],
-   "route_95" : [
+   "95" : [
       {
          "direction" : "Outward",
          "lat" : 54.5955329520398,
@@ -11130,7 +11130,7 @@ var myTranslink = {
          "lon" : -5.92854557306574
       }
    ],
-   "route_57" : [
+   "57" : [
       {
          "direction" : "Outward",
          "lat" : 54.6145279238895,
@@ -11510,7 +11510,7 @@ var myTranslink = {
          "lon" : -5.93039900210171
       }
    ],
-   "route_EB1" : [
+   "EB1" : [
       {
          "direction" : "Outward",
          "lat" : 54.5919883789818,
@@ -11526,7 +11526,7 @@ var myTranslink = {
          "lon" : -5.88979094401522
       }
    ],
-   "route_90" : [
+   "90" : [
       {
          "direction" : "Outward",
          "lat" : 54.5696855368952,
@@ -11948,7 +11948,7 @@ var myTranslink = {
          "lon" : -5.99440149984197
       }
    ],
-   "route_80" : [
+   "80" : [
       {
          "direction" : "Outward",
          "lat" : 54.5964825658511,
@@ -12426,7 +12426,7 @@ var myTranslink = {
          "lon" : -5.93308837589519
       }
    ],
-   "route_EB4" : [
+   "EB4" : [
       {
          "direction" : "Terminal",
          "lat" : 54.5958519665568,
@@ -12435,7 +12435,7 @@ var myTranslink = {
          "lon" : -5.88979094401522
       }
    ],
-   "route_23B" : [
+   "23B" : [
       {
          "direction" : "Terminal",
          "lat" : 54.5954332067112,
@@ -12787,7 +12787,7 @@ var myTranslink = {
          "lon" : -5.85078955542105
       }
    ],
-   "route_92A" : [
+   "92A" : [
       {
          "direction" : "Outward",
          "lat" : 54.5696855368952,
@@ -13188,7 +13188,7 @@ var myTranslink = {
          "lon" : -5.9625197333639
       }
    ],
-   "route_2B" : [
+   "2B" : [
       {
          "direction" : "Outward",
          "lat" : 54.6055872050355,
@@ -13575,7 +13575,7 @@ var myTranslink = {
          "lon" : -5.93164100795711
       }
    ],
-   "route_7C" : [
+   "7C" : [
       {
          "direction" : "Outward",
          "lat" : 54.5890850338693,
@@ -13843,7 +13843,7 @@ var myTranslink = {
          "lon" : -5.93433794253656
       }
    ],
-   "route_1D" : [
+   "1D" : [
       {
          "direction" : "Outward",
          "lat" : 54.6049177405977,
@@ -14265,7 +14265,7 @@ var myTranslink = {
          "lon" : -5.92938912197791
       }
    ],
-   "route_96" : [
+   "96" : [
       {
          "direction" : "Inward",
          "lat" : 54.6218399455284,
@@ -14512,7 +14512,7 @@ var myTranslink = {
          "lon" : -5.93164100795711
       }
    ],
-   "route_19A" : [
+   "19A" : [
       {
          "direction" : "Inward",
          "lat" : 54.5952951163304,
@@ -14577,7 +14577,7 @@ var myTranslink = {
          "lon" : -5.85315206870349
       }
    ],
-   "route_92" : [
+   "92" : [
       {
          "direction" : "Outward",
          "lat" : 54.5696855368952,
@@ -14964,7 +14964,7 @@ var myTranslink = {
          "lon" : -5.99440149984197
       }
    ],
-   "route_92B" : [
+   "92B" : [
       {
          "direction" : "Inward",
          "lat" : 54.5694331374049,
@@ -15218,7 +15218,7 @@ var myTranslink = {
          "lon" : -5.9625197333639
       }
    ],
-   "route_1H" : [
+   "1H" : [
       {
          "direction" : "Outward",
          "lat" : 54.6049177405977,
@@ -15633,7 +15633,7 @@ var myTranslink = {
          "lon" : -5.93169553638995
       }
    ],
-   "route_NL1" : [
+   "NL1" : [
       {
          "direction" : "CityCentre",
          "lat" : 54.5970834932097,
@@ -15642,7 +15642,7 @@ var myTranslink = {
          "lon" : -5.93144679246222
       }
    ],
-   "route_11D" : [
+   "11D" : [
       {
          "direction" : "Outward",
          "lat" : 54.6022863584815,
@@ -16043,7 +16043,7 @@ var myTranslink = {
          "lon" : -5.98065122464236
       }
    ],
-   "route_10G" : [
+   "10G" : [
       {
          "direction" : "Inward",
          "lat" : 54.5670908471038,
@@ -16136,7 +16136,7 @@ var myTranslink = {
          "lon" : -5.97944125296644
       }
    ],
-   "route_EB5" : [
+   "EB5" : [
       {
          "direction" : "Inward",
          "lat" : 54.5772202345205,
@@ -16152,7 +16152,7 @@ var myTranslink = {
          "lon" : -5.93527773855971
       }
    ],
-   "route_81A" : [
+   "81A" : [
       {
          "direction" : "Outward",
          "lat" : 54.5964825658511,
@@ -16749,7 +16749,7 @@ var myTranslink = {
          "lon" : -6.0121103875401
       }
    ],
-   "route_8B" : [
+   "8B" : [
       {
          "direction" : "Outward",
          "lat" : 54.5889963137304,
@@ -17122,7 +17122,7 @@ var myTranslink = {
          "lon" : -5.93455989620547
       }
    ],
-   "route_3A" : [
+   "3A" : [
       {
          "direction" : "Outward",
          "lat" : 54.60085169287,
@@ -17558,7 +17558,7 @@ var myTranslink = {
          "lon" : -5.85903249718576
       }
    ],
-   "route_26" : [
+   "26" : [
       {
          "direction" : "",
          "lat" : 54.6199523302464,
@@ -17574,7 +17574,7 @@ var myTranslink = {
          "lon" : -5.88481143855633
       }
    ],
-   "route_2E" : [
+   "2E" : [
       {
          "direction" : "Outward",
          "lat" : 54.6055872050355,
@@ -17891,7 +17891,7 @@ var myTranslink = {
          "lon" : -5.93164100795711
       }
    ],
-   "route_10H" : [
+   "10H" : [
       {
          "direction" : "Other",
          "lat" : 54.5640872619714,
@@ -18362,7 +18362,7 @@ var myTranslink = {
          "lon" : -6.00411332232012
       }
    ],
-   "route_13" : [
+   "13" : [
       {
          "direction" : "Inward",
          "lat" : 54.6105494528681,
@@ -18420,7 +18420,7 @@ var myTranslink = {
          "lon" : -5.93171374454615
       }
    ],
-   "route_1C" : [
+   "1C" : [
       {
          "direction" : "Outward",
          "lat" : 54.6049177405977,
@@ -18835,7 +18835,7 @@ var myTranslink = {
          "lon" : -5.93169553638995
       }
    ],
-   "route_9A" : [
+   "9A" : [
       {
          "direction" : "Outward",
          "lat" : 54.5889963137304,
@@ -19201,7 +19201,7 @@ var myTranslink = {
          "lon" : -5.96993646533022
       }
    ],
-   "route_5B" : [
+   "5B" : [
       {
          "direction" : "Inward",
          "lat" : 54.5997744651623,
@@ -19329,8 +19329,8 @@ var myTranslink = {
          "lon" : -5.93140406933523
       }
    ],
-   "route_64B" : [],
-   "route_27" : [
+   "64B" : [],
+   "27" : [
       {
          "direction" : "Outward",
          "lat" : 54.60085169287,
@@ -19717,7 +19717,7 @@ var myTranslink = {
          "lon" : -5.85438351982894
       }
    ],
-   "route_10E" : [
+   "10E" : [
       {
          "direction" : "Inward",
          "lat" : 54.5759183845358,
@@ -20153,7 +20153,7 @@ var myTranslink = {
          "lon" : -5.97655710618258
       }
    ],
-   "route_11C" : [
+   "11C" : [
       {
          "direction" : "Outward",
          "lat" : 54.6022863584815,
@@ -20463,7 +20463,7 @@ var myTranslink = {
          "lon" : -5.93037491191217
       }
    ],
-   "route_14B" : [
+   "14B" : [
       {
          "direction" : "Inward",
          "lat" : 54.6105494528681,
@@ -20514,7 +20514,7 @@ var myTranslink = {
          "lon" : -5.93171374454615
       }
    ],
-   "route_78" : [
+   "78" : [
       {
          "direction" : "Outward",
          "lat" : 54.60085169287,
@@ -20761,7 +20761,7 @@ var myTranslink = {
          "lon" : -5.92824128397443
       }
    ],
-   "route_11A" : [
+   "11A" : [
       {
          "direction" : "Outward",
          "lat" : 54.6022863584815,
@@ -21176,7 +21176,7 @@ var myTranslink = {
          "lon" : -5.96337998285232
       }
    ],
-   "route_11B" : [
+   "11B" : [
       {
          "direction" : "Outward",
          "lat" : 54.6022863584815,
@@ -21472,7 +21472,7 @@ var myTranslink = {
          "lon" : -5.98065122464236
       }
    ],
-   "route_9" : [
+   "9" : [
       {
          "direction" : "Inward",
          "lat" : 54.5688288928105,
@@ -21488,7 +21488,7 @@ var myTranslink = {
          "lon" : -5.9311913911678
       }
    ],
-   "route_4A" : [
+   "4A" : [
       {
          "direction" : "Outward",
          "lat" : 54.60085169287,
@@ -21903,7 +21903,7 @@ var myTranslink = {
          "lon" : -5.86692693282609
       }
    ],
-   "route_17" : [
+   "17" : [
       {
          "direction" : "Inward",
          "lat" : 54.5926135515033,
@@ -21919,7 +21919,7 @@ var myTranslink = {
          "lon" : -5.90730765807333
       }
    ],
-   "route_6A" : [
+   "6A" : [
       {
          "direction" : "Outward",
          "lat" : 54.60085169287,
@@ -22103,7 +22103,7 @@ var myTranslink = {
          "lon" : -5.93006158387374
       }
    ],
-   "route_79" : [
+   "79" : [
       {
          "direction" : "Outward",
          "lat" : 54.60085169287,
@@ -22350,7 +22350,7 @@ var myTranslink = {
          "lon" : -5.92824128397443
       }
    ],
-   "route_NL3" : [
+   "NL3" : [
       {
          "direction" : "CityCentre",
          "lat" : 54.5967053913234,
@@ -22359,7 +22359,7 @@ var myTranslink = {
          "lon" : -5.93140406933523
       }
    ],
-   "route_28" : [
+   "28" : [
       {
          "direction" : "Outward",
          "lat" : 54.60085169287,
@@ -22739,7 +22739,7 @@ var myTranslink = {
          "lon" : -5.93142091404471
       }
    ],
-   "route_1E" : [
+   "1E" : [
       {
          "direction" : "Outward",
          "lat" : 54.6049177405977,
@@ -23154,7 +23154,7 @@ var myTranslink = {
          "lon" : -5.93169553638995
       }
    ],
-   "route_5A" : [
+   "5A" : [
       {
          "direction" : "Outward",
          "lat" : 54.60085169287,
@@ -23380,7 +23380,7 @@ var myTranslink = {
          "lon" : -5.93140406933523
       }
    ],
-   "route_77" : [
+   "77" : [
       {
          "direction" : "Outward",
          "lat" : 54.60085169287,
@@ -23585,7 +23585,7 @@ var myTranslink = {
          "lon" : -5.92427334899128
       }
    ],
-   "route_8A" : [
+   "8A" : [
       {
          "direction" : "Outward",
          "lat" : 54.5889963137304,
@@ -23979,7 +23979,7 @@ var myTranslink = {
          "lon" : -5.9407499998443
       }
    ],
-   "route_12" : [
+   "12" : [
       {
          "direction" : "Other",
          "lat" : 54.6015087468134,
@@ -23988,7 +23988,7 @@ var myTranslink = {
          "lon" : -5.9311913911678
       }
    ],
-   "route_EB3" : [
+   "EB3" : [
       {
          "direction" : "Terminal",
          "lat" : 54.5958519665568,
@@ -23997,7 +23997,7 @@ var myTranslink = {
          "lon" : -5.88979094401522
       }
    ],
-   "route_64" : [
+   "64" : [
       {
          "direction" : "Outward",
          "lat" : 54.6055872050355,
@@ -24335,7 +24335,7 @@ var myTranslink = {
          "lon" : -5.93164100795711
       }
    ],
-   "route_30A" : [
+   "30A" : [
       {
          "direction" : "Outward",
          "lat" : 54.5841148045752,
@@ -24568,7 +24568,7 @@ var myTranslink = {
          "lon" : -5.92993152053757
       }
    ],
-   "route_EB2" : [
+   "EB2" : [
       {
          "direction" : "Terminal",
          "lat" : 54.5958519665568,
@@ -24577,7 +24577,7 @@ var myTranslink = {
          "lon" : -5.88979094401522
       }
    ],
-   "route_7A" : [
+   "7A" : [
       {
          "direction" : "Outward",
          "lat" : 54.5890850338693,
@@ -24817,8 +24817,8 @@ var myTranslink = {
          "lon" : -5.93433794253656
       }
    ],
-   "route_600 AIRLINK" : [],
-   "route_18" : [
+   "600 AIRLINK" : [],
+   "18" : [
       {
          "direction" : "Outward",
          "lat" : 54.60085169287,
@@ -25275,7 +25275,7 @@ var myTranslink = {
          "lon" : -5.87012309674186
       }
    ],
-   "route_7B" : [
+   "7B" : [
       {
          "direction" : "Outward",
          "lat" : 54.5890850338693,
@@ -25515,7 +25515,7 @@ var myTranslink = {
          "lon" : -5.93433794253656
       }
    ],
-   "route_2D" : [
+   "2D" : [
       {
          "direction" : "Outward",
          "lat" : 54.6055872050355,
@@ -25832,7 +25832,7 @@ var myTranslink = {
          "lon" : -5.93164100795711
       }
    ],
-   "route_600" : [
+   "600" : [
       {
          "direction" : "Outward",
          "lat" : 54.5977749801598,
@@ -25848,7 +25848,7 @@ var myTranslink = {
          "lon" : -5.92902725230263
       }
    ],
-   "route_NL4" : [
+   "NL4" : [
       {
          "direction" : "CityCentre",
          "lat" : 54.5967053913234,
@@ -25857,7 +25857,7 @@ var myTranslink = {
          "lon" : -5.93140406933523
       }
    ],
-   "route_NL7" : [
+   "NL7" : [
       {
          "direction" : "CityCentre",
          "lat" : 54.5967017005877,
@@ -25866,7 +25866,7 @@ var myTranslink = {
          "lon" : -5.93171374454615
       }
    ],
-   "route_NL6" : [
+   "NL6" : [
       {
          "direction" : "CityCentre",
          "lat" : 54.5963732330455,
@@ -25875,7 +25875,7 @@ var myTranslink = {
          "lon" : -5.93142091404471
       }
    ],
-   "route_19" : [
+   "19" : [
       {
          "direction" : "Outward",
          "lat" : 54.60085169287,
@@ -26220,7 +26220,7 @@ var myTranslink = {
          "lon" : -5.93144679246222
       }
    ],
-   "route_9C" : [
+   "9C" : [
       {
          "direction" : "Outward",
          "lat" : 54.5889963137304,
@@ -26621,7 +26621,7 @@ var myTranslink = {
          "lon" : -5.96993646533022
       }
    ],
-   "route_82" : [
+   "82" : [
       {
          "direction" : "Outward",
          "lat" : 54.592922651211,
@@ -27085,7 +27085,7 @@ var myTranslink = {
          "lon" : -5.96943746951207
       }
    ],
-   "route_81" : [
+   "81" : [
       {
          "direction" : "Outward",
          "lat" : 54.5964825658511,
@@ -27549,7 +27549,7 @@ var myTranslink = {
          "lon" : -5.93308837589519
       }
    ],
-   "route_10A" : [
+   "10A" : [
       {
          "direction" : "Outward",
          "lat" : 54.5696855368952,
@@ -27978,7 +27978,7 @@ var myTranslink = {
          "lon" : -5.99440149984197
       }
    ],
-   "route_11" : [
+   "11" : [
       {
          "direction" : "Other",
          "lat" : 54.6015087468134,
@@ -27994,7 +27994,7 @@ var myTranslink = {
          "lon" : -5.93293697070921
       }
    ],
-   "route_4B" : [
+   "4B" : [
       {
          "direction" : "Outward",
          "lat" : 54.60085169287,
@@ -28409,7 +28409,7 @@ var myTranslink = {
          "lon" : -5.86692693282609
       }
    ],
-   "route_NL9" : [
+   "NL9" : [
       {
          "direction" : "CityCentre",
          "lat" : 54.5970834932097,
@@ -28418,7 +28418,7 @@ var myTranslink = {
          "lon" : -5.93144679246222
       }
    ],
-   "route_9B" : [
+   "9B" : [
       {
          "direction" : "Outward",
          "lat" : 54.5889963137304,
@@ -28756,7 +28756,7 @@ var myTranslink = {
          "lon" : -5.96993646533022
       }
    ],
-   "route_94C" : [
+   "94C" : [
       {
          "direction" : "",
          "lat" : 54.6121674155873,
@@ -28765,7 +28765,7 @@ var myTranslink = {
          "lon" : -5.88970501761333
       }
    ],
-   "route_64A" : [
+   "64A" : [
       {
          "direction" : "Outward",
          "lat" : 54.6055872050355,
