@@ -30,6 +30,8 @@ Based on data extracted originally by David Wilson and then modified by Stephen 
 
 ## TODO
 
+* link area data to services data  
+* Remove route_ naming for routes.json
 * normalize stops (remove duplicates & assign unique ids)
 * link stops to routes & timetable data
 * add street names to route data
