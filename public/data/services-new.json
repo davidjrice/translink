@@ -1,285 +1,212 @@
 {
-  "6": [
-    "A",
-    "A",
-    "2A",
-    "2A",
-    "2B",
-    "2B",
-    "1",
-    "1",
-    "4",
-    "4",
-    "4A",
-    "4A",
-    "4B",
-    "4B",
-    "00",
-    "00",
-    "50",
-    "50"
-  ],
-  "11": [
-    "A",
-    "A",
-    "B",
-    "B",
-    "C",
-    "C",
-    "D",
-    "D"
-  ],
-  "7": [
-    "A",
-    "A",
-    "B",
-    "B",
-    "C",
-    "C",
-    "D",
-    "D",
-    "5A",
-    "6",
-    "6",
-    "",
-    "",
-    "8",
-    "8",
-    "8A",
-    "9",
-    "9"
-  ],
-  "12": [
-    "A",
-    "A",
-    "B",
-    "B",
-    "C",
-    "C"
-  ],
-  "8": [
-    "A",
-    "A",
-    "B",
-    "B",
-    "C",
-    "C",
-    "7A",
-    "0",
-    "0",
-    "0A",
-    "0B",
-    "0B",
-    "1",
-    "1",
-    "1A",
-    "1A",
-    "2",
-    "2",
-    "2A",
-    "9",
-    "1",
-    "1"
-  ],
-  "9": [
-    "A",
-    "A",
-    "B",
-    "B",
-    "C",
-    "C",
-    "2A",
-    "2A",
-    "2B",
-    "2B",
-    "0",
-    "0",
-    "1",
-    "1",
-    "2",
-    "2",
-    "2B",
-    "3",
-    "3",
-    "5",
-    "5",
-    "5A",
-    "6",
-    "6"
-  ],
-  "1": [
-    "A",
-    "A",
-    "B",
-    "B",
-    "C",
-    "C",
-    "D",
-    "D",
-    "E",
-    "E",
-    "G",
-    "G",
-    "F",
-    "F",
-    "J",
-    "J",
-    "0A",
-    "0A",
-    "0B",
-    "0B",
-    "0C",
-    "0C",
-    "0D",
-    "0D",
-    "0E",
-    "0E",
-    "0F",
-    "0F",
-    "0G",
-    "0H",
-    "0H",
-    "A",
-    "A",
-    "B",
-    "B",
-    "C",
-    "C",
-    "D",
-    "D",
-    "2A",
-    "2A",
-    "2B",
-    "2B",
-    "2C",
-    "2C",
-    "3",
-    "3A",
-    "3B",
-    "3C",
-    "4",
-    "4A",
-    "4B",
-    "4C",
-    "5",
-    "5",
-    "8",
-    "8",
-    "9",
-    "9",
-    "8A",
-    "8A",
-    "88",
-    "88",
-    "24",
-    "24",
-    "EB3",
-    "EB5",
-    "EB6",
-    "EB7"
-  ],
-  "2": [
-    "A",
-    "A",
-    "B",
-    "B",
-    "C",
-    "C",
-    "D",
-    "D",
-    "E",
-    "E",
-    "F",
-    "F",
-    "G",
-    "G",
-    "H",
-    "H",
-    "1A",
-    "1A",
-    "1B",
-    "1B",
-    "1C",
-    "1C",
-    "0",
-    "0",
-    "0A",
-    "0A",
-    "3",
-    "3",
-    "6",
-    "6",
-    "6A",
-    "6A",
-    "6B",
-    "6B",
-    "7",
-    "7",
-    "8",
-    "8",
-    "9",
-    "9",
-    "9A",
-    "9A",
-    "9B",
-    "9B",
-    "8A",
-    "9B",
-    "14",
-    "14"
-  ],
-  "3": [
-    "A",
-    "A",
-    "1A",
-    "1B",
-    "1C",
-    "0",
-    "0",
-    "0A",
-    "0A",
-    "1",
-    "1"
-  ],
-  "4": [
-    "A",
-    "A",
-    "B",
-    "B",
-    "1A",
-    "1B",
-    "1C",
-    "6A",
-    "6A",
-    "6B",
-    "6B"
-  ],
-  "10": [
-    "A",
-    "A",
-    "B",
-    "B",
-    "C",
-    "C",
-    "D",
-    "D",
-    "E",
-    "E",
-    "F",
-    "F",
-    "G",
-    "H",
-    "H"
-  ],
-  "5": [
-    "A",
-    "A",
-    "B",
-    "7",
-    "7",
-    "7A",
-    "9A",
-    "60",
-    "60"
-  ]
+  "6": {
+    "A": {
+      "O": "Belfast - Cregagh - Forestside",
+      "I": "Forestside - Cregagh - Belfast"
+    }
+  },
+  "11": {
+    "A": {
+      "O": "Belfast - Shankill Road - Silverstream",
+      "I": "Silverstream - Shankill Road - Belfast"
+    },
+    "B": {
+      "O": "Belfast - Ballygomartin - Springmartin",
+      "I": "Springmartin - Ballygomartin - Belfast"
+    },
+    "C": {
+      "O": "Belfast - Ballygomartin - Glencairn",
+      "I": "Glencairn - Ballygomartin - Belfast"
+    },
+    "D": {
+      "O": "Belfast - Ballygomartin - Glencairn - Springmartin",
+      "I": "Glencairn - Springmartin - Ballygomartin - Belfast"
+    }
+  },
+  "7": {
+    "A": {
+      "O": "Belfast - Forestside - Four Winds",
+      "I": "Four Winds - Forestside - Belfast"
+    },
+    "B": {
+      "O": "Belfast - Forestside - Four Winds - Laurelgrove",
+      "I": "Laurelgrove - Four Winds -Forestside - Belfast"
+    },
+    "C": {
+      "O": "Belfast - Forestside - Four Winds - Laurelgrove",
+      "I": "Laurelgrove - Four Winds - Forestside - Belfast"
+    },
+    "D": {
+      "O": "Belfast - Forestside - Four Winds - Laurelgrove",
+      "I": "Laurelgrove - Four Winds - Forestside - Belfast"
+    }
+  },
+  "12": {
+    "A": {
+      "O": "Belfast - Cliftonville Road - Carr's Glen",
+      "I": "Carr's Glen - Cliftonville Road - Belfast"
+    },
+    "B": {
+      "O": "Belfast - Crumlin Road - Carr's Glen",
+      "I": "Carr's Glen - Crumlin Road - Belfast"
+    },
+    "C": {
+      "O": "Belfast - Carrs Glen - Ligoniel",
+      "I": "Ligoniel - Carrs Glen - Belfast"
+    }
+  },
+  "8": {
+    "A": {
+      "O": "Belfast - Stranmillis - Malone",
+      "I": "Malone - Stranmillis - Belfast"
+    },
+    "B": {
+      "O": "Belfast - Malone",
+      "I": "Malone - Belfast"
+    },
+    "C": {
+      "O": "Belfast - Ladybrook",
+      "I": "Ladybrook - Belfast"
+    }
+  },
+  "9": {
+    "A": {
+      "O": "Belfast - Conway",
+      "I": "Conway - Belfast"
+    },
+    "B": {
+      "O": "Belfast - Balmoral",
+      "I": "Balmoral - Belfast"
+    },
+    "C": {
+      "O": "Belfast - Balmoral - Conway",
+      "I": "Conway - Balmoral - Belfast"
+    }
+  },
+  "1": {
+    "A": {
+      "O": "Belfast - Glengormley - Carnmoney - Glenville",
+      "I": "Glenville - Carnmoney - Glengormley - Belfast"
+    },
+    "B": {
+      "O": "Belfast - Glengormley - Ballyhenry - New Mossley",
+      "I": "New Mossley - Ballyhenry - Glengormley - Belfast"
+    },
+    "C": {
+      "O": "Belfast - Glengormley - Ballyhenry - Glenville",
+      "I": "Glenville - Ballyhenry - Glengormley - Belfast"
+    },
+    "D": {
+      "O": "Belfast - Glengormley - Ballyhenry - Mossley",
+      "I": "Mossley - Ballyhenry - Glengormley - Belfast"
+    },
+    "E": {
+      "O": "Belfast - Glengormley - Roughfort",
+      "I": "Roughfort - Glengormley - Belfast"
+    },
+    "F": {
+      "O": "Belfast - Hightown Road",
+      "I": "Hightown Road - Belfast"
+    },
+    "G": {
+      "O": "Belfast - Glengormley - Ballyhenry",
+      "I": "Ballyhenry - Glengormley - Belfast"
+    },
+    "J": {
+      "O": "Belfast - Glengormley - Royal Mail",
+      "I": "Royal Mail - Glengormley - Belfast"
+    }
+  },
+  "2": {
+    "A": {
+      "O": "Belfast - Glengormley - Carnmoney - Fairview Road",
+      "I": "Fairview Road - Carnmoney - Glengormley - Belfast"
+    },
+    "B": {
+      "O": "Belfast - Abbeycentre - Glengormley - Fairview Road",
+      "I": "Fairview Road - Glengormley - Abbeycentre - Belfast"
+    },
+    "C": {
+      "O": "Belfast - Monkstown",
+      "I": "Monkstown - Belfast"
+    },
+    "D": {
+      "O": "Belfast - Abbeycentre - Valley Leisure Centre - Monkstown",
+      "I": "Monkstown - Valley Leisure Centre - Abbeycentre - Belfast"
+    },
+    "E": {
+      "O": "Belfast - Rathcoole - Monkstown",
+      "I": "Monkstown - Rathcoole - Belfast"
+    },
+    "F": {
+      "O": "Belfast - Rathcoole - Monkstown",
+      "I": "Monkstown - Rathcoole - Belfast"
+    },
+    "G": {
+      "O": "Belfast - Monkstown",
+      "I": "Monkstown - Belfast"
+    },
+    "H": {
+      "O": "Belfast - Rathcoole",
+      "I": "Rathcoole - Belfast"
+    }
+  },
+  "3": {
+    "A": {
+      "O": "Belfast - Connswater - Knocknagoney Avenue",
+      "I": "Knocknagoney Avenue - Connswater - Belfast"
+    }
+  },
+  "4": {
+    "A": {
+      "O": "Belfast - Ballyhackamore - Dundonald - Ballybeen",
+      "I": "Ballybeen - Dundonald - Ballyhackamore - Belfast"
+    },
+    "B": {
+      "O": "Belfast - Ballyhackamore - Dundonald",
+      "I": "Dundonald - Ballyhackamore - Belfast"
+    }
+  },
+  "10": {
+    "A": {
+      "O": "Belfast - Andersonstown - Ladybrook",
+      "I": "Ladybrook - Andersonstown  - Belfast"
+    },
+    "B": {
+      "O": "Belfast - Andersonstown - Poleglass",
+      "I": "Poleglass - Andersonstown - Belfast"
+    },
+    "C": {
+      "O": "Belfast - Andersonstown - Poleglass",
+      "I": "Poleglass - Andersonstown - Belfast"
+    },
+    "D": {
+      "O": "Belfast - Andersonstown - Lagmore Mount Eagles",
+      "I": "Lagmore Mount Eagles - Andersonstown - Belfast"
+    },
+    "E": {
+      "O": "Belfast - Lagmore",
+      "I": "Lagmore - Belfast"
+    },
+    "F": {
+      "O": "Belfast - Glen Road - Lagmore",
+      "I": "Lagmore - Glen Road - Belfast"
+    },
+    "G": {
+      "I": "Lagmore - Kennedy Centre"
+    },
+    "H": {
+      "O": "Belfast - Blacks Road",
+      "I": "Blacks Road - Belfast"
+    }
+  },
+  "5": {
+    "A": {
+      "O": "Belfast - Castlereagh - Braniel",
+      "I": "Braniel - Castlereagh - Belfast"
+    },
+    "B": {
+      "I": "Braniel - Belfast"
+    }
+  }
 }
