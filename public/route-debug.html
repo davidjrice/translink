@@ -18,6 +18,10 @@
     
     <script>
       var map = null;
+      var markers = {};
+      var area = "1";
+      var service = "A";
+      
       function initialize() {
         if (GBrowserIsCompatible()) {
           map = new GMap2(document.getElementById("map_canvas"), {zoom: 16});
@@ -25,13 +29,12 @@
           map.addControl(new GSmallMapControl());
           map.addControl(new GMapTypeControl());
         
-          var route_data = myTranslink["1"]["A"]["I"];
-          drawRoute(map, route_data);
+          //var route_data = myTranslink[area][service]["I"];
+          //drawRoute(map, route_data);
         }
       }
       
       function drawRoute(map, route_data){
-        var markers = {};
         for (var stop in route_data) {
           var s = myTranslinkStops[route_data[stop]];
           var latlng = new GLatLng(s.lat, s.lon);
@@ -63,8 +66,21 @@
         });
         
         $("#route").live("change",function(){
-          var area = $('#area').val();
-          var service = $('#service').val();
+          area = $('#area').val();
+          service = $('#service').val();
+          
+          // Remove unchecked routes.
+          $.each($("#route input"), function(i,item){
+            if($(item).attr('checked') == false){
+              stops = myTranslink[area][service][$(item).val()]
+              for (var stop in stops) {
+                if( markers[stop] ){
+                 map.removeOverlay(markers[stop]) 
+                }
+              }
+            }
+          });
+          
           //var route = $('#route').val();
           $.each($("input:checked"), function(i,item){
             var route = item.name;
@@ -74,6 +90,10 @@
       }
       
       function update_services(data){
+        $.each(markers, function(i,item){
+          map.removeOverlay(item)
+        });
+        
         $('#service').empty();
         var area = $('#area').val();
         var services = data[area];
