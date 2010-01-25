@@ -14,39 +14,119 @@
     -->
     <script src="/data/routes-new.json"></script>
     <script src="/data/stops.json"></script>
-
+    <script src="/js/mustache.js" type="text/javascript"></script>
+    
     <script>
+      var map = null;
       function initialize() {
         if (GBrowserIsCompatible()) {
-          var map = new GMap2(document.getElementById("map_canvas"), {zoom: 16});
+          map = new GMap2(document.getElementById("map_canvas"), {zoom: 16});
           map.setCenter(new GLatLng(54.596571, -5.930235), 13);
           map.addControl(new GSmallMapControl());
           map.addControl(new GMapTypeControl());
-          
-          var route_data = myTranslink["3"]["A"]["I"]
-          var markers = {}
-          for (var stop in route_data) {
-            var s = myTranslinkStops[route_data[stop]]
-            var latlng = new GLatLng(s.lat, s.lon);
-            var marker = new GMarker(latlng, {title: s.name})
-            markers[stop] = marker
-            map.addOverlay(marker);
-            GEvent.addListener(markers[stop], "click", function() {  
-                marker.openInfoWindow("#" + stop + " " + s.name);  
-            });
-            
-            
-          }
+        
+          var route_data = myTranslink["1"]["A"]["I"];
+          drawRoute(map, route_data);
         }
+      }
+      
+      function drawRoute(map, route_data){
+        var markers = {};
+        for (var stop in route_data) {
+          var s = myTranslinkStops[route_data[stop]];
+          var latlng = new GLatLng(s.lat, s.lon);
+          var marker = new GMarker(latlng, {title: s.name});
+          markers[stop] = marker;
+          map.addOverlay(marker);
+          addDebugWindow(marker, stop, s.name);
+        }
+      }
+      function addDebugWindow(marker, stop_number, name) {
+        GEvent.addListener(marker, "click", function() {
+          marker.openInfoWindow("#" + stop_number + " " + name);
+        });
+      }
+      
+      function draw_route(area, service, route){
+        var route_data = myTranslink[area][service][route];
+        drawRoute(map, route_data);
+      }
+      
+      function update_routes(){
+        data = ["Inbound", "Outbound", "X"]
+        $('#route').empty();
+        $.each(data, function(i,item){
+          var template = "<input type='checkbox' name='{{code}}' value='{{code}}'><label>{{name}}</label>";
+          var view = { code: item.substring(0,1), name: item };
+          var html = Mustache.to_html(template, view);                
+          $('#route').append(html);
+        });
+        
+        $("#route").live("change",function(){
+          var area = $('#area').val();
+          var service = $('#service').val();
+          //var route = $('#route').val();
+          $.each($("input:checked"), function(i,item){
+            var route = item.name;
+            draw_route(area, service, route);
+          });
+        });
+      }
+      
+      function update_services(data){
+        $('#service').empty();
+        var area = $('#area').val();
+        var services = data[area];
+        $.each(services, function(service,routes){
+          var template = "<option value='{{service}}'>{{service}}</option>";
+          var view = { service: service };
+          var html = Mustache.to_html(template, view);                
+          $('#service').append(html);
+        });
+        
+        var service = $('#service').val();
+        update_routes();
       }
       
       $(document).ready(function() {
         initialize();
+        
+        var areas = [];
+        var services = {};
+        
+        $.getJSON('/data/areas.json', function(data) {
+          $.each(data, function(i,item){
+            var template = "<option value='{{code}}'>{{code}} - {{name}}</option>";
+            var view = {
+              code: item['code'],
+              name: item['name']
+            };
+            var html = Mustache.to_html(template, view);
+            areas.push(item);
+            $('#area').append(html);
+          });
+          //$('#area').html('<option value="+'data['code']'">'+data['name']+'</option>');
+          
+          $.getJSON('/data/services.json', function(data){
+            services = data;
+            update_services(services);
+          });
+          
+          
+          $("#area").live("change",function(){
+            update_services(services);
+          });
+        });        
+        
+        
       });
     </script> 
   </head> 
   <body>
     <h1>Translink Metro Stops</h1>
+    <select id="area"></select>
+    <select id="service"></select>
+    <div id="route"></div>
     <div id="map_canvas" style="width: 100%; height: 600px; display: block; margin-top:50px"></div> 
   </body> 
 </html>
