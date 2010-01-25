@@ -23,14 +23,15 @@
           map.addControl(new GSmallMapControl());
           map.addControl(new GMapTypeControl());
           
-          var route_data = myTranslink["1"]["A"]["I"]
-          
+          var route_data = myTranslink["3"]["A"]["I"]
+          var markers = {}
           for (var stop in route_data) {
             var s = myTranslinkStops[route_data[stop]]
             var latlng = new GLatLng(s.lat, s.lon);
             var marker = new GMarker(latlng, {title: s.name})
+            markers[stop] = marker
             map.addOverlay(marker);
-            GEvent.addListener(marker, "click", function() {  
+            GEvent.addListener(markers[stop], "click", function() {  
                 marker.openInfoWindow("#" + stop + " " + s.name);  
             });
             
