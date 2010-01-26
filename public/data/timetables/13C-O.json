@@ -1,5 +1,0 @@
-{
-  "weekdays": {"journeys":[[{"stop":"Hydepark, Trench Road","time":"1635"},{"stop":"Sandyknowes, Ballyhenry Road","time":"1639"},{"stop":"Prince Charles Way, Glebe Rd","time":"1642"},{"stop":"Carnmoney, Carnvue","time":"1644"},{"stop":"Fairview Rd, Beverley Shops","time":"1646"},{"stop":"Fairview Rd, Ballyduff Shops","time":"1647"},{"stop":"Ballyfore Road, Doagh Road","time":"1649"},{"stop":"Doagh Road, Cherrylands","time":"1651"},{"stop":"Cloughfern, Whiteabbey Hospl","time":"1654"},{"stop":"Doagh Road, Green End","time":"1656"},{"stop":"Belfast, Donegall Sq West","time":"1716"}]],"frequency":"weekdays"},
-  "sunday": null,
-  "saturday": null
-}

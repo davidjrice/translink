@@ -1,5 +1,0 @@
-{
-  "weekdays": {"journeys":[[{"stop":"Poleglass Est, Pembrooke\nLoop","time":"0740"},{"stop":"Brian's Well Road, Glenkeen","time":"0745"},{"stop":"Stewartstown Rd, Dairy Fm\nCtr","time":"0748"},{"stop":"Suffolk Road, Glengoland\nRoundabout","time":"0749"},{"stop":"Suffolk Road, Woodbourne","time":"0751"},{"stop":"Glen Road, Glencolin","time":"0755"},{"stop":"Glen Road, St Teresa's","time":"0759"},{"stop":"Monagh Road, Bus stop","time":"0801"},{"stop":"Falls Road, St James","time":"0809"},{"stop":"Falls Road, Royal Hospitals","time":"0814"},{"stop":"Belfast, Wellington Place","time":"0823"}]],"frequency":"weekdays"},
-  "sunday": null,
-  "saturday": null
-}

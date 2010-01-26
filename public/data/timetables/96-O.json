@@ -1,5 +1,0 @@
-{
-  "weekdays": {"journeys":[[{"stop":"Belfast, Donegall Sq West","time":"1215"},{"stop":"Duncrue Street, Ulsterbus","time":"1224"},{"stop":"Dargan Crescent, Bus stop","time":"1227"},{"stop":"Westbank Road, Stena Line","time":"1235"}],[{"stop":"Belfast, Donegall Sq West","time":"1315"},{"stop":"Duncrue Street, Ulsterbus","time":"1324"},{"stop":"Dargan Crescent, Bus stop","time":"1327"},{"stop":"Westbank Road, Stena Line","time":"1335"}],[{"stop":"Belfast, Donegall Sq West","time":"1415"},{"stop":"Duncrue Street, Ulsterbus","time":"1424"},{"stop":"Dargan Crescent, Bus stop","time":"1427"},{"stop":"Westbank Road, Stena Line","time":"1435"}],[{"stop":"Belfast, Donegall Sq West","time":"1515"},{"stop":"Duncrue Street, Ulsterbus","time":"1524"},{"stop":"Dargan Crescent, Bus stop","time":"1527"},{"stop":"Westbank Road, Stena Line","time":"1535"}],[{"stop":"Belfast, Donegall Sq West","time":"1610"},{"stop":"Duncrue Street, Ulsterbus","time":"1619"},{"stop":"Dargan Crescent, Bus stop","time":"1622"},{"stop":"Westbank Road, Stena Line","time":"1630"}]],"frequency":"weekdays"},
-  "sunday": null,
-  "saturday": null
-}

@@ -1,5 +1,0 @@
-{
-  "weekdays": {"journeys":[[{"stop":"Connswater, Shopping Centre","time":"0920"},{"stop":"Knocknagoney, Tesco","time":"0935"},{"stop":"Knocknagoney, Tesco","time":"0948"},{"stop":"Holywood Rd, Arches Heatlh\nCentre","time":"1000"},{"stop":"Connswater, Shopping Centre","time":"1005"}],[{"stop":"Connswater, Shopping Centre","time":"1110"},{"stop":"Knocknagoney, Tesco","time":"1125"},{"stop":"Knocknagoney, Tesco","time":"1138"},{"stop":"Holywood Rd, Arches Heatlh\nCentre","time":"1150"},{"stop":"Connswater, Shopping Centre","time":"1155"}],[{"stop":"Connswater, Shopping Centre","time":"1325"},{"stop":"Knocknagoney, Tesco","time":"1340"},{"stop":"Knocknagoney, Tesco","time":"1353"},{"stop":"Holywood Rd, Arches Heatlh\nCentre","time":"1405"},{"stop":"Connswater, Shopping Centre","time":"1410"}],[{"stop":"Connswater, Shopping Centre","time":"1515"},{"stop":"Knocknagoney, Tesco","time":"1530"},{"stop":"Knocknagoney, Tesco","time":"1543"},{"stop":"Holywood Rd, Arches Heatlh\nCentre","time":"1555"},{"stop":"Connswater, Shopping Centre","time":"1600"}]],"frequency":null},
-  "sunday": null,
-  "saturday": null
-}

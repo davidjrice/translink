@@ -1,5 +1,0 @@
-{
-  "weekdays": {"journeys":[[{"stop":"Tesco, Abbey Retail Park Church\nRoad","time":"1045"},{"stop":"Abbeycentre, Shore entrance\n(Dunnes)","time":"1055"},{"stop":"Castle Avenue, Bus stop","time":"1108"},{"stop":"Shore Road, Mount Vernon Rd","time":"1113"},{"stop":"Gunnell Hill, Bus stop","time":"1120"},{"stop":"Tesco, Abbey Retail Park Church\nRoad","time":"1125"},{"stop":"Abbeycentre, Shore entrance\n(Dunnes)","time":"1130"}],[{"stop":"Tesco, Abbey Retail Park Church\nRoad","time":"..."},{"stop":"Abbeycentre, Shore entrance\n(Dunnes)","time":"1325"},{"stop":"Castle Avenue, Bus stop","time":"1338"},{"stop":"Shore Road, Mount Vernon Rd","time":"1343"},{"stop":"Gunnell Hill, Bus stop","time":"1350"},{"stop":"Tesco, Abbey Retail Park Church\nRoad","time":"1355"},{"stop":"Abbeycentre, Shore entrance\n(Dunnes)","time":"1400"}]],"frequency":null},
-  "sunday": null,
-  "saturday": null
-}

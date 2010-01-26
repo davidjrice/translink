@@ -1,5 +1,0 @@
-{
-  "weekdays": {"journeys":[[{"stop":"Dundonald, Ulster Hospital","time":"1720"},{"stop":"Stormont, Dundonald House","time":"..."},{"stop":"Stormont, Castle Buildings","time":"1723"},{"stop":"Upper Newtownards Rd,\nRosepark","time":"..."},{"stop":"Stormont, Massey Ave Gates","time":"1726"},{"stop":"Massey Avenue, Castle Hill","time":"1727"},{"stop":"Upper Newtownards Rd, Knock\nRoad","time":"..."},{"stop":"Ballyhackamore, Village","time":"..."},{"stop":"Belmont Rd, Gelston's Corner","time":"1734"},{"stop":"Bloomfield, Grand Parade","time":"..."},{"stop":"Mount Merrion Ave, Bell's\nBridge","time":"..."},{"stop":"Rosetta, Knockbreda Road","time":"..."},{"stop":"Ormeau Road, Agincourt\nAvenue","time":"..."},{"stop":"Connswater, Newtownards Rd","time":"1737"},{"stop":"Short Strand, Albertbridge\nRd","time":"..."},{"stop":"Belfast, East Bridge St Central\nStn","time":"..."},{"stop":"Short Strand, Newtownards Rd","time":"1740"},{"stop":"Belfast, Donegall Sq West","time":"1746"}]],"frequency":"weekdays"},
-  "sunday": null,
-  "saturday": null
-}

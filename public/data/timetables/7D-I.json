@@ -1,5 +1,0 @@
-{
-  "weekdays": null,
-  "sunday": {"journeys":[[{"stop":"Laurelgrove, Ballymaconaghy\nRoad","time":"2027"},{"stop":"Four Winds, Ballymaconaghy\nRd","time":"2029"},{"stop":"Newton Park, Colby Park","time":"2030"},{"stop":"Saintfield Rd, Mount Oriel","time":"2031"},{"stop":"Forestside, Upper Galwally","time":"2033"},{"stop":"Mount Merrion, Rosetta Rd","time":"2037"},{"stop":"Rosetta, St John's Church","time":"2039"},{"stop":"Ormeau Road, Agincourt\nAvenue","time":"2042"},{"stop":"Botanic Ave, Shaftesbury Sq","time":"2045"},{"stop":"Belfast, City Hall","time":"2049"}],[{"stop":"Laurelgrove, Ballymaconaghy\nRoad","time":"2225"},{"stop":"Four Winds, Ballymaconaghy\nRd","time":"2227"},{"stop":"Newton Park, Colby Park","time":"2228"},{"stop":"Saintfield Rd, Mount Oriel","time":"2229"},{"stop":"Forestside, Upper Galwally","time":"2231"},{"stop":"Mount Merrion, Rosetta Rd","time":"2235"},{"stop":"Rosetta, St John's Church","time":"2237"},{"stop":"Ormeau Road, Agincourt\nAvenue","time":"2240"},{"stop":"Botanic Ave, Shaftesbury Sq","time":"2243"},{"stop":"Belfast, City Hall","time":"2247"}]],"frequency":"sunday"},
-  "saturday": null
-}
