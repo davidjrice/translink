@@ -45,8 +45,27 @@
   });
 </script>
 
-
+<style>
+#timetable{
+  position:absolute;
+  right:20px;
+  z-index:999;
+  float:right;
+}
+</style>
+<div id="timetable">
+<%- @timetable.each do |frequency, journeys| -%>
+  <h3><%= frequency %></h3>
+  <%- journeys.each do |journey| -%>
+  <ul id="<%= journey.first['time'] %>">
+    <%- journey.each do |stop| -%>
+    <li><%= stop['stop'] %> <strong><%= stop['time'] %></strong></li>
+    <%- end -%>
+  </ul>
+  <%- end -%>
+<%- end -%>
+</div>
 <h1>Metro Stops</h1>
 <div id="map_canvas" style="width: 100%; height: 550px; display: block; margin-top:50px"></div> 
- 
+
 
