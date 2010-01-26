@@ -5,7 +5,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/> 
     <title>Maps</title>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
-    <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=true&amp;key=ABQIAAAACc___sNvSynSaWkB8BkrWBQ2d4m_eQjJyB961KEaj_DVihhfaRS3uin1mlpNqct_f5R6Sh4Hq9nygQ" type="text/javascript"></script>
+    <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=true&amp;key=ABQIAAAACc___sNvSynSaWkB8BkrWBS5WX_aIvwO_e1XNZP97lgHspfiLxRdNFe6vhkheA29Pd6wxcQWYBu0mA" type="text/javascript"></script>
     <!-- Development 
     <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=true&amp;key=ABQIAAAACc___sNvSynSaWkB8BkrWBS5WX_aIvwO_e1XNZP97lgHspfiLxRdNFe6vhkheA29Pd6wxcQWYBu0mA" type="text/javascript"></script>
       Production
@@ -34,12 +34,16 @@
         }
       }
       
-      function drawRoute(map, route_data){
+      function drawRoute(map, route_data, route){
+        markers[area] = {}
+        markers[area][service] = {}
+        markers[area][service][route] = {}
+        
         for (var stop in route_data) {
           var s = myTranslinkStops[route_data[stop]];
           var latlng = new GLatLng(s.lat, s.lon);
           var marker = new GMarker(latlng, {title: s.name});
-          markers[stop] = marker;
+          var markers[area][service][route][stop] = marker;
           map.addOverlay(marker);
           addDebugWindow(marker, stop, s.name);
         }
@@ -52,7 +56,7 @@
       
       function draw_route(area, service, route){
         var route_data = myTranslink[area][service][route];
-        drawRoute(map, route_data);
+        drawRoute(map, route_data, route);
       }
       
       function update_routes(){
@@ -74,8 +78,8 @@
             if($(item).attr('checked') == false){
               stops = myTranslink[area][service][$(item).val()]
               for (var stop in stops) {
-                if( markers[stop] ){
-                 map.removeOverlay(markers[stop]) 
+                if( markers[area + service + $(item).val()][stop] ){
+                 map.removeOverlay( markers[area + service + $(item).val()][stop] ) 
                 }
               }
             }
