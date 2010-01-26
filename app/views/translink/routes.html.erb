@@ -1,34 +1,36 @@
 <h2>Routes</h2>
 
-<p><%= link_to "JSON", params.merge(:format => 'json') %></p>
+<p><%= link_to "Download in JSON", params.merge(:format => 'json') %> format</p>
 
 <p>The routes denoted by <strong>X</strong> are currently unknown stops</p>
 <p>This data was originally listed as one of ["Both", "CityCentre", "Other", "Terminal"] in the original data</p>
-
+<br />
+<p>
+If compared with the timetable data (scraped from the translink site this month), it appears there are several stops missing from the <strong>routes busses actually take</strong>
+and the stop data that translink has provided. However, it should still be possible to link up some major times on the routes.
+</p>
+<br />
 <table>
   <thead>
     <tr>
-      <th>Area Code</th>
-      <th>Service Code</th>
       <th>Code</th>
       <th>Name</th>
-      <th>Direction</th>
-      <th>No. of Stops</th>
+      <th>Stops(#)</th>
       <th>Map</th>
       <th>JSON</th>
+      <th>Timetable (JSON)</th>
     </tr>
   </thead>
   <tbody>
     <%- @routes.each do |r| -%>
       <tr>
-        <td><%= r.area.code %></td>
-        <td><%= r.service.code %></td>
-        <td><%= r.code %></td>
+        <td><%= "#{r.area.code}#{r.service.code}-#{r.code}" %></td>
         <td><%= r.name %></td>
-        <td><%= r.direction %></td>
         <td><%= r.stops.size %></td>
         <th><%= link_to "Map", maps_path(:area => r.area.code, :service => r.service.code, :route => r.code) %></th>
         <th><%= link_to "JSON", stops_path(:area => r.area.code, :service => r.service.code, :route => r.code) %></th>
+        <th><%= link_to "Times", stops_path(:area => r.area.code, :service => r.service.code, :route => r.code) %></th>
+        
       </tr>
     <%- end -%>
   </tbody>
