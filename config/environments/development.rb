@@ -15,3 +15,6 @@ config.action_controller.perform_caching             = false
 
 # Don't care if the mailer can't send
 config.action_mailer.raise_delivery_errors = false
+
+# GMAPS Key, works for 0.0.0.0:3000
+$GMAPS_API_KEY = "ABQIAAAACc___sNvSynSaWkB8BkrWBQDNUKtWYO0YNsBQklWEm0Tg_LWZBSCtq3pgIQ2GLZ-q1yFmGYtuqGRPg"

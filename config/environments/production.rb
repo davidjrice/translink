@@ -26,3 +26,5 @@ config.action_view.cache_template_loading            = true
 
 # Enable threaded mode
 # config.threadsafe!
+
+$GMAPS_API_KEY = "ABQIAAAACc___sNvSynSaWkB8BkrWBQ2d4m_eQjJyB961KEaj_DVihhfaRS3uin1mlpNqct_f5R6Sh4Hq9nygQ"
