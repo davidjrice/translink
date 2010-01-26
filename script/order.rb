@@ -27,7 +27,7 @@ areas.each do |area|
       end
       ordered.each_with_index do |node, i|
         unless node.nil?
-          RouteStop.find_by_stop_id_and_route_id(node.id, route.id).update_attribute(:order,i)
+          RouteStop.find_by_stop_id_and_route_id(node.id, route.id).update_attribute(:position,i)
         end
       end
     

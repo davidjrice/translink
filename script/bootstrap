@@ -1,0 +1,2 @@
+#!/bin/sh
+rake db:drop && rake db:create && rake db:migrate && ruby script/import/areas.rb && ruby script/import/services.rb && ruby script/import/routes.rb && ruby script/order.rb

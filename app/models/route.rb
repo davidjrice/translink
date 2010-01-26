@@ -17,4 +17,8 @@ class Route < ActiveRecord::Base
     end
   end
   
+  def full_code_hyptenated
+    "#{area.code}#{service.code}-#{code}"
+  end
+  
 end

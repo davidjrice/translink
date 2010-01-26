@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(:version => 20100126004617) do
   create_table "route_stops", :force => true do |t|
     t.integer "route_id"
     t.integer "stop_id"
-    t.integer "order"
+    t.integer "position"
   end
 
   create_table "routes", :force => true do |t|

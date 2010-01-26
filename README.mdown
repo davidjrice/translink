@@ -15,3 +15,12 @@ Focusing only on translink Metro data.
 
 * link stops to routes & timetable data
 * Work out what to do with the "Unknown" stops. Delimited by X in the routes.json. These were a bunch of stops that were not defined as inward / outward.
+
+## Getting Started
+
+* Install Ruby, Rubygems, Rails, MySQL (or other).
+* rake gems:install
+* script/bootstrap
+* and you're done
+* script/server 
+* then navigate to http://0.0.0.0:3000

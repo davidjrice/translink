@@ -30,7 +30,7 @@ class InitialSchema < ActiveRecord::Migration
     create_table :route_stops do |t|
       t.integer :route_id
       t.integer :stop_id
-      t.integer :order
+      t.integer :position
     end
     
   end
