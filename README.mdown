@@ -21,7 +21,7 @@ Based on data extracted originally by David Wilson and then modified by Stephen 
 
 ## Running
 
-* Install ruby, rubygems, rack (gem), sinatra (gem)
+* Install ruby, rubygems, rails (gem)
     
     cd translink && rackup
 
