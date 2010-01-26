@@ -1,0 +1,30 @@
+<h2>Stops</h2>
+
+<p><%= link_to "JSON", params.merge(:format => 'json') %></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Area Code</th>
+      <th>Service Code</th>
+      <th>Stop Name</th>
+      <th>Street Name</th>
+      <th>Latitude</th>
+      <th>Longitude</th>
+      <th>Direction</th>
+    </tr>
+  </thead>
+  <tbody>
+    <%- @stops.each do |s| -%>
+      <tr>
+        <td><%= @route.area.code %></td>
+        <td><%= @route.service.code %></td>
+        <td><%= s.name %></td>
+        <td><%= s.street %></td>
+        <td><%= s.lat %></td>
+        <td><%= s.lon %></td>
+        <td><%= s.direction %></td>
+      </tr>
+    <%- end -%>
+  </tbody>
+</table>

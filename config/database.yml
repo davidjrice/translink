@@ -1,0 +1,18 @@
+login: &login
+  adapter: mysql
+  host: localhost
+  encoding: utf8
+  username: root
+  password: 
+
+development:
+  <<: *login
+  database: translink_development
+
+test:
+  <<: *login
+  database: translink_test
+
+production:
+  <<: *login
+  database: translink_production

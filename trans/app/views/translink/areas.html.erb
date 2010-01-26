@@ -1,0 +1,24 @@
+<h2>Areas</h2>
+
+<p><%= link_to "JSON", params.merge(:format => 'json') %></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Code</th>
+      <th>Name</th>
+      <th>No. of Services</th>
+      <th>Services</th>
+    </tr>
+  </thead>
+  <tbody>
+    <%- @areas.each do |a| -%>
+      <tr>
+        <td><%= a.code %></td>
+        <td><%= a.name %></td>
+        <td><%= a.services.size %></td>
+        <td><%= a.services.map{ |s| s.code }.join(",") %></td>
+      </tr>
+    <%- end -%>
+  </tbody>
+</table>
