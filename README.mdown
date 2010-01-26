@@ -1,16 +1,8 @@
 # Translink
 
-Here is route data for translink. 
+Open Translink collaboration project.. 
 
-Based on data extracted originally by David Wilson and then modified by Stephen Stewart. HTML5 canvas view by Stephen.
-
-## Rough Plan
-
-* Stops are not in the correct order. *need to confirm this, I checked many and they look okay... -djr*
-* Should be able to visualize data 100% correctly using the index.html HTML5 canvas at that point. 
-* Timetable data needs extracted in a compatible JSON format. **timetables.json**
-* Then we need to add live-updating bus positions. With timetable data we can approximate these.
-* It is at this point where we also want to have investigated overlaying using google maps, to get routes mapped onto roads.
+Focusing only on translink Metro data.
 
 ## Contributing
 
@@ -19,17 +11,7 @@ Based on data extracted originally by David Wilson and then modified by Stephen 
 * work, make changes locally and then push to github
 * at this point send a pull request and patches will be pulled in.
 
-## Running
-
-* Install ruby, rubygems, rails (gem)
-    
-    cd translink && rackup
-
-* done
-* visit http://0.0.0.0:9292  
-
 ## TODO
 
 * link stops to routes & timetable data
-* Check stop ordering after recent extraction. Order stops based on. Timetables
-* Work out what to do with the "Unknown" stops. Delimited by X in the routes.json. These were a bunch of stops that were not defined as inward / outward. If we can do this when syncing up with the timetable data that would be awesome.
+* Work out what to do with the "Unknown" stops. Delimited by X in the routes.json. These were a bunch of stops that were not defined as inward / outward.
