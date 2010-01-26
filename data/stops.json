@@ -29,7 +29,7 @@
     "code": "54.5805924151236:-5.93860920763585",
     "street": "Malone Road",
     "lat": 54.5805924151236,
-    "direction": "Inward"
+    "direction": "Inwaf"
   },
   "54.6578507777715:-5.93998254943782": {
     "name": "Hazelwood Park",
@@ -48,7 +48,7 @@
     "direction": "Inward"
   },
   "54.5672693978209:-5.94928652281549": {
-    "name": "Malone Rd(Bladon Drive)",
+    "name": "Malone Road (Bladon Drive)",
     "lon": -5.94928652281549,
     "code": "54.5672693978209:-5.94928652281549",
     "street": "Malone Road",
@@ -56,7 +56,7 @@
     "direction": "Outward"
   },
   "54.5812226924973:-5.93815972417299": {
-    "name": "Malone Rd(Eglantine Ave)",
+    "name": "Malone Road (Eglantine Ave)",
     "lon": -5.93815972417299,
     "code": "54.5812226924973:-5.93815972417299",
     "street": "Malone Road",
@@ -168,10 +168,10 @@
     "direction": "Inward"
   },
   "54.5519593855824:-5.97651800559893": {
-    "name": "Finaghy Rd South(Trossachs)",
+    "name": "Finaghy Road South(Trossachs)",
     "lon": -5.97651800559893,
     "code": "54.5519593855824:-5.97651800559893",
-    "street": "Finaghy Rd South",
+    "street": "Finaghy Road South",
     "lat": 54.5519593855824,
     "direction": "Inward"
   },
@@ -280,7 +280,7 @@
     "direction": "Inward"
   },
   "54.6088420674535:-5.97268985443442": {
-    "name": "Ballygomartin(West Circular Rd)",
+    "name": "Ballygomartin(West Circular Road)",
     "lon": -5.97268985443442,
     "code": "54.6088420674535:-5.97268985443442",
     "street": "Ballygomartin Road",
@@ -312,7 +312,7 @@
     "direction": "Inward"
   },
   "54.6102009563135:-5.94723600814659": {
-    "name": "Oldpark Rd.(Agness Street)",
+    "name": "Oldpark Road (Agness Street)",
     "lon": -5.94723600814659,
     "code": "54.6102009563135:-5.94723600814659",
     "street": "Oldpark Road",
@@ -440,7 +440,7 @@
     "direction": "Outward"
   },
   "54.5982991403048:-5.93475869168787": {
-    "name": "King St.",
+    "name": "King Street",
     "lon": -5.93475869168787,
     "code": "54.5982991403048:-5.93475869168787",
     "street": "College Square East",
@@ -464,7 +464,7 @@
     "direction": "Outward"
   },
   "54.5758378369193:-6.02357388477785": {
-    "name": "Suffolk Rd. Jct.",
+    "name": "Suffolk Road  Jct.",
     "lon": -6.02357388477785,
     "code": "54.5758378369193:-6.02357388477785",
     "street": "Glen Road",
@@ -496,7 +496,7 @@
     "direction": "Outward"
   },
   "54.6009801470191:-5.9312801094734": {
-    "name": "Royal Ave.(Castlecourt)",
+    "name": "Royal Avenue (Castlecourt)",
     "lon": -5.9312801094734,
     "code": "54.6009801470191:-5.9312801094734",
     "street": "Royal Avenue",
@@ -576,7 +576,7 @@
     "direction": "Inward"
   },
   "54.5797894602779:-5.93894365238667": {
-    "name": "Malone Rd(Chlorine Gardens)",
+    "name": "Malone Road (Chlorine Gardens)",
     "lon": -5.93894365238667,
     "code": "54.5797894602779:-5.93894365238667",
     "street": "Malone Road",
@@ -592,7 +592,7 @@
     "direction": "Inward"
   },
   "54.5764870246415:-6.01438630804523": {
-    "name": "Shaws Rd Jct.",
+    "name": "Shaws Road Jct.",
     "lon": -6.01438630804523,
     "code": "54.5764870246415:-6.01438630804523",
     "street": "Glen Road",
@@ -616,7 +616,7 @@
     "direction": "Outward"
   },
   "54.5558525338574:-5.99230952844086": {
-    "name": "Blacks Rd",
+    "name": "Blacks Road",
     "lon": -5.99230952844086,
     "code": "54.5558525338574:-5.99230952844086",
     "street": "Upper Lisburn Road",
@@ -824,7 +824,7 @@
     "direction": "Outward"
   },
   "54.5732465732606:-5.99117586779483": {
-    "name": "Andersonstown Rd.(Slievegallion Drive)",
+    "name": "Andersonstown Road (Slievegallion Drive)",
     "lon": -5.99117586779483,
     "code": "54.5732465732606:-5.99117586779483",
     "street": "Andersonstown Road",
@@ -848,7 +848,7 @@
     "direction": "Outward"
   },
   "54.599686089404:-5.93074220136365": {
-    "name": "Royal Ave.(Castlecourt)",
+    "name": "Royal Avenue (Castlecourt)",
     "lon": -5.93074220136365,
     "code": "54.599686089404:-5.93074220136365",
     "street": "Royal Avenue",
@@ -931,7 +931,7 @@
     "name": "Hillhead Crescent",
     "lon": -6.00309596554511,
     "code": "54.5711078709693:-6.00309596554511",
-    "street": "Stewartstown Rd",
+    "street": "Stewartstown Road",
     "lat": 54.5711078709693,
     "direction": "Inward"
   },
@@ -968,7 +968,7 @@
     "direction": "Inward"
   },
   "54.6099189861031:-5.94703349410439": {
-    "name": "Oldpark Rd.(Agness Street)",
+    "name": "Oldpark Road (Agness Street)",
     "lon": -5.94703349410439,
     "code": "54.6099189861031:-5.94703349410439",
     "street": "Oldpark Road",
@@ -1000,7 +1000,7 @@
     "direction": "Inward"
   },
   "54.5776944360267:-5.94149324974227": {
-    "name": "Malone Rd Opp(Sans Souci Park)",
+    "name": "Malone Road Opp(Sans Souci Park)",
     "lon": -5.94149324974227,
     "code": "54.5776944360267:-5.94149324974227",
     "street": "Malone Road",
@@ -1059,12 +1059,12 @@
     "name": "Chippendale Court",
     "lon": -5.978187270001,
     "code": "54.5535237428581:-5.978187270001",
-    "street": "Finaghy Rd South",
+    "street": "Finaghy Road South",
     "lat": 54.5535237428581,
     "direction": "Outward"
   },
   "54.601568955028:-5.93155976693722": {
-    "name": "Royal Ave.(Castlecourt)",
+    "name": "Royal Avenue (Castlecourt)",
     "lon": -5.93155976693722,
     "code": "54.601568955028:-5.93155976693722",
     "street": "Royal Avenue",
@@ -1128,10 +1128,10 @@
     "direction": "Outward"
   },
   "54.5516164287898:-5.97642678994831": {
-    "name": "Finaghy Rd South(Trossachs)",
+    "name": "Finaghy Road South(Trossachs)",
     "lon": -5.97642678994831,
     "code": "54.5516164287898:-5.97642678994831",
-    "street": "Finaghy Rd South",
+    "street": "Finaghy Road South",
     "lat": 54.5516164287898,
     "direction": "Outward"
   },
@@ -1200,7 +1200,7 @@
     "direction": "Terminal"
   },
   "54.5626731038962:-5.95217668351237": {
-    "name": "Malone Rd(Balmoral Ave)",
+    "name": "Malone Road(Balmoral Ave)",
     "lon": -5.95217668351237,
     "code": "54.5626731038962:-5.95217668351237",
     "street": "Malone Road",
@@ -1344,7 +1344,7 @@
     "direction": "Terminal"
   },
   "54.6011523008662:-5.93136423356125": {
-    "name": "Royal Ave.(Castlecourt)",
+    "name": "Royal Avenue (Castlecourt)",
     "lon": -5.93136423356125,
     "code": "54.6011523008662:-5.93136423356125",
     "street": "Royal Avenue",
@@ -1563,7 +1563,7 @@
     "name": "Chichester Street",
     "lon": -5.92733997058128,
     "code": "54.5975073857845:-5.92733997058128",
-    "street": "Chichester St.",
+    "street": "Chichester Street",
     "lat": 54.5975073857845,
     "direction": "CityCentre"
   },
@@ -1587,7 +1587,7 @@
     "name": "HillHead Crescent",
     "lon": -6.00403932412555,
     "code": "54.5707909993487:-6.00403932412555",
-    "street": "Stewartstown Rd",
+    "street": "Stewartstown Road",
     "lat": 54.5707909993487,
     "direction": "Outward"
   },
@@ -1784,7 +1784,7 @@
     "direction": "Inward"
   },
   "54.5597147337918:-5.95416478160094": {
-    "name": "Malone Rd(Malone Hill Park)",
+    "name": "Malone Road(Malone Hill Park)",
     "lon": -5.95416478160094,
     "code": "54.5597147337918:-5.95416478160094",
     "street": "Malone Road",
@@ -1843,7 +1843,7 @@
     "name": "Suffolk Ave",
     "lon": -6.00582013366092,
     "code": "54.5704250362336:-6.00582013366092",
-    "street": "Stewartstown Rd",
+    "street": "Stewartstown Road",
     "lat": 54.5704250362336,
     "direction": "Inward"
   },
@@ -1912,10 +1912,10 @@
     "direction": "Inward"
   },
   "54.5566441392119:-5.98103189714486": {
-    "name": "Finaghy Rd South(De Beere Court)",
+    "name": "Finaghy Road South(De Beere Court)",
     "lon": -5.98103189714486,
     "code": "54.5566441392119:-5.98103189714486",
-    "street": "Finaghy Rd South",
+    "street": "Finaghy Road South",
     "lat": 54.5566441392119,
     "direction": "Outward"
   },
@@ -2011,7 +2011,7 @@
     "name": "Stewartstown Road(Woodbourne)",
     "lon": -6.01036927578947,
     "code": "54.5678314310266:-6.01036927578947",
-    "street": "Stewartstown Rd",
+    "street": "Stewartstown Road",
     "lat": 54.5678314310266,
     "direction": "Outward"
   },
@@ -2123,7 +2123,7 @@
     "name": "Benmore Walk",
     "lon": -5.97970388700176,
     "code": "54.5553640605486:-5.97970388700176",
-    "street": "Finaghy Rd South",
+    "street": "Finaghy Road South",
     "lat": 54.5553640605486,
     "direction": "Inward"
   },
@@ -2152,7 +2152,7 @@
     "direction": "Inward"
   },
   "54.5950791347062:-5.86723894422576": {
-    "name": "Hillview Ave.",
+    "name": "Hillview Avenue",
     "lon": -5.86723894422576,
     "code": "54.5950791347062:-5.86723894422576",
     "street": "Upper Newtownards Road",
@@ -2195,7 +2195,7 @@
     "name": "Stewartstown Road(Doon Road)",
     "lon": -6.00884791186227,
     "code": "54.5685880835038:-6.00884791186227",
-    "street": "Stewartstown Rd",
+    "street": "Stewartstown Road",
     "lat": 54.5685880835038,
     "direction": "Other"
   },
@@ -2424,7 +2424,7 @@
     "direction": "Outward"
   },
   "54.5760682787457:-5.94414269917734": {
-    "name": "Malone Rd(Beechlands)",
+    "name": "Malone Road(Beechlands)",
     "lon": -5.94414269917734,
     "code": "54.5760682787457:-5.94414269917734",
     "street": "Malone Road",
@@ -2464,7 +2464,7 @@
     "direction": "Outward"
   },
   "54.5732160403926:-5.99041956996247": {
-    "name": "Andersonstown Rd.(Slievegallion Drive)",
+    "name": "Andersonstown Road (Slievegallion Drive)",
     "lon": -5.99041956996247,
     "code": "54.5732160403926:-5.99041956996247",
     "street": "Andersonstown Road",
@@ -2616,7 +2616,7 @@
     "direction": "Terminal"
   },
   "54.5685004848895:-5.94823502147047": {
-    "name": "Malone Rd(Osbourne)",
+    "name": "Malone Road(Osbourne)",
     "lon": -5.94823502147047,
     "code": "54.5685004848895:-5.94823502147047",
     "street": "Malone Road",
@@ -2715,7 +2715,7 @@
     "name": "St. Genieves",
     "lon": -6.00046278947341,
     "code": "54.5724570348555:-6.00046278947341",
-    "street": "Stewartstown Rd",
+    "street": "Stewartstown Road",
     "lat": 54.5724570348555,
     "direction": "Inward"
   },
@@ -2907,7 +2907,7 @@
     "name": "Stewartstown Road(Woodbourne)",
     "lon": -6.01232276207092,
     "code": "54.5670908471038:-6.01232276207092",
-    "street": "Stewartstown Rd",
+    "street": "Stewartstown Road",
     "lat": 54.5670908471038,
     "direction": "Inward"
   },
@@ -2968,7 +2968,7 @@
     "direction": "Inward"
   },
   "54.6081245657531:-5.97383998955282": {
-    "name": "Ballygomartin(West Circular Rd)",
+    "name": "Ballygomartin(West Circular Road)",
     "lon": -5.97383998955282,
     "code": "54.6081245657531:-5.97383998955282",
     "street": "Ballygomartin Road",
@@ -3168,7 +3168,7 @@
     "direction": "Outward"
   },
   "54.6001055290636:-5.90914775133418": {
-    "name": "\"Short Strand, N'Ards Rd.\"",
+    "name": "\"Short Strand, N'Ards Road \"",
     "lon": -5.90914775133418,
     "code": "54.6001055290636:-5.90914775133418",
     "street": "Newtownards Road",
@@ -3304,7 +3304,7 @@
     "direction": "Outward"
   },
   "54.5541591189118:-5.9710605388774": {
-    "name": "Upper Malone Rd(Malone Height's)",
+    "name": "Upper Malone Road(Malone Height's)",
     "lon": -5.9710605388774,
     "code": "54.5541591189118:-5.9710605388774",
     "street": "Upper Malone Road",
@@ -3387,7 +3387,7 @@
     "name": "Chippendale Court",
     "lon": -5.97807515557492,
     "code": "54.553602733357:-5.97807515557492",
-    "street": "Finaghy Rd South",
+    "street": "Finaghy Road South",
     "lat": 54.553602733357,
     "direction": "Inward"
   },
@@ -3464,7 +3464,7 @@
     "direction": "Inward"
   },
   "54.5731012951217:-6.01996379171342": {
-    "name": " Old Suffolk Rd.",
+    "name": " Old Suffolk Road",
     "lon": -6.01996379171342,
     "code": "54.5731012951217:-6.01996379171342",
     "street": "Suffolk Road",
@@ -3491,7 +3491,7 @@
     "name": "Finaghy Road South Health Center",
     "lon": -5.98433982094015,
     "code": "54.5604101203706:-5.98433982094015",
-    "street": "Finaghy Rd South",
+    "street": "Finaghy Road South",
     "lat": 54.5604101203706,
     "direction": "Inward"
   },
@@ -3576,10 +3576,10 @@
     "direction": "Outward"
   },
   "54.5958303863019:-5.93225309430102": {
-    "name": "Howard St.",
+    "name": "Howard Street",
     "lon": -5.93225309430102,
     "code": "54.5958303863019:-5.93225309430102",
-    "street": "Howard St.",
+    "street": "Howard Street",
     "lat": 54.5958303863019,
     "direction": "CityCentre"
   },
@@ -3968,7 +3968,7 @@
     "direction": "Inward"
   },
   "54.6001501947531:-5.90809310813932": {
-    "name": "\"Short Strand, (N'Ards Rd)\"",
+    "name": "\"Short Strand, (N'Ards Road)\"",
     "lon": -5.90809310813932,
     "code": "54.6001501947531:-5.90809310813932",
     "street": "Newtownards Road",
@@ -4168,7 +4168,7 @@
     "direction": "Outward"
   },
   "54.5957169784289:-5.91673836979401": {
-    "name": "East Bridge St.(Central Station)",
+    "name": "East Bridge Street (Central Station)",
     "lon": -5.91673836979401,
     "code": "54.5957169784289:-5.91673836979401",
     "street": "East Bridge Street",
@@ -4219,7 +4219,7 @@
     "name": "Stewartstown Road(Shaws Road)",
     "lon": -5.99785365498965,
     "code": "54.5733123686424:-5.99785365498965",
-    "street": "Stewartstown Rd",
+    "street": "Stewartstown Road",
     "lat": 54.5733123686424,
     "direction": "Inward"
   },
@@ -4240,7 +4240,7 @@
     "direction": "Inward"
   },
   "54.5731284795752:-5.94668788095498": {
-    "name": "Malone Rd(Notting Hill)",
+    "name": "Malone Road(Notting Hill)",
     "lon": -5.94668788095498,
     "code": "54.5731284795752:-5.94668788095498",
     "street": "Malone Road",
@@ -4288,7 +4288,7 @@
     "direction": "Inward"
   },
   "54.5967085848618:-5.89718987560587": {
-    "name": "Hornby St.",
+    "name": "Hornby Street",
     "lon": -5.89718987560587,
     "code": "54.5967085848618:-5.89718987560587",
     "street": "Albert Bridge Road",
@@ -4400,7 +4400,7 @@
     "direction": "Inward"
   },
   "54.5998967504128:-5.93834551103644": {
-    "name": "Barrack St.",
+    "name": "Barrack Street",
     "lon": -5.93834551103644,
     "code": "54.5998967504128:-5.93834551103644",
     "street": "Divis Street",
@@ -4488,7 +4488,7 @@
     "direction": "Inward"
   },
   "54.6025918471213:-5.8821371563978": {
-    "name": "Parkgate Ave.",
+    "name": "Parkgate Avenue",
     "lon": -5.8821371563978,
     "code": "54.6025918471213:-5.8821371563978",
     "street": "Connsbrook Avenue",
@@ -4635,7 +4635,7 @@
     "name": "Finaghy Road South Youth Club",
     "lon": -5.9824133522798,
     "code": "54.5580958088663:-5.9824133522798",
-    "street": "Finaghy Rd South",
+    "street": "Finaghy Road South",
     "lat": 54.5580958088663,
     "direction": "Outward"
   },
@@ -5064,7 +5064,7 @@
     "direction": "Outward"
   },
   "54.5996073694905:-5.93823633498758": {
-    "name": "Barrack St.",
+    "name": "Barrack Street",
     "lon": -5.93823633498758,
     "code": "54.5996073694905:-5.93823633498758",
     "street": "Divis Street",
@@ -5136,7 +5136,7 @@
     "direction": "Outward"
   },
   "54.5710786933291:-5.94714665408262": {
-    "name": "Malone Rd(Cranmore Park)",
+    "name": "Malone Road (Cranmore Park)",
     "lon": -5.94714665408262,
     "code": "54.5710786933291:-5.94714665408262",
     "street": "Malone Road",
@@ -5195,7 +5195,7 @@
     "name": "Suffolk Library",
     "lon": -6.00756395719422,
     "code": "54.5692318242315:-6.00756395719422",
-    "street": "Stewartstown Rd",
+    "street": "Stewartstown Road",
     "lat": 54.5692318242315,
     "direction": "Outward"
   },
@@ -5224,7 +5224,7 @@
     "direction": "Inward"
   },
   "54.5608191378285:-5.9530581344759": {
-    "name": "Malone Rd(Mount Eden Park)",
+    "name": "Malone Road (Mount Eden Park)",
     "lon": -5.9530581344759,
     "code": "54.5608191378285:-5.9530581344759",
     "street": "Malone Road",
@@ -5283,7 +5283,7 @@
     "name": "St. Genieves",
     "lon": -6.00063270189518,
     "code": "54.5721453707222:-6.00063270189518",
-    "street": "Stewartstown Rd",
+    "street": "Stewartstown Road",
     "lat": 54.5721453707222,
     "direction": "Outward"
   },
@@ -5352,7 +5352,7 @@
     "direction": "Inward"
   },
   "54.5955386429646:-5.91786160604944": {
-    "name": "East Bridge St.(Central Station)",
+    "name": "East Bridge Street (Central Station)",
     "lon": -5.91786160604944,
     "code": "54.5955386429646:-5.91786160604944",
     "street": "East Bridge Street",
@@ -5499,7 +5499,7 @@
     "name": "Finaghy Road South Health Center",
     "lon": -5.98420262251899,
     "code": "54.5600574191634:-5.98420262251899",
-    "street": "Finaghy Rd South",
+    "street": "Finaghy Road South",
     "lat": 54.5600574191634,
     "direction": "Outward"
   },
@@ -5784,7 +5784,7 @@
     "direction": "CityCentre"
   },
   "54.5657858862197:-5.95028877862801": {
-    "name": "Malone Rd(Myrtlefield Park)",
+    "name": "Malone Road (Myrtlefield Park)",
     "lon": -5.95028877862801,
     "code": "54.5657858862197:-5.95028877862801",
     "street": "Malone Road",
@@ -5819,7 +5819,7 @@
     "name": "Stewartstown Road(Woodbourne)",
     "lon": -6.0121103875401,
     "code": "54.5670064923583:-6.0121103875401",
-    "street": "Stewartstown Rd",
+    "street": "Stewartstown Road",
     "lat": 54.5670064923583,
     "direction": "Outward"
   },
@@ -5851,7 +5851,7 @@
     "name": "Stewartstown Road(Shaws Road)",
     "lon": -5.99658781586504,
     "code": "54.5729499809687:-5.99658781586504",
-    "street": "Stewartstown Rd",
+    "street": "Stewartstown Road",
     "lat": 54.5729499809687,
     "direction": "Outward"
   },
