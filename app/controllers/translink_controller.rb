@@ -64,17 +64,21 @@ class TranslinkController < ApplicationController
     @route = Route.find_by_area_id_and_service_id_and_code(area.id, service.id, params[:route])
     @stops = @route.stops.find(:all, :order => "position")
     
-    timetable_path = File.join(RAILS_ROOT, 'public', 'timetables', "#{@route.full_code_hyptenated}.json")
-    times = JSON.parse(File.read(timetable_path))
+    begin
+      timetable_path = File.join(RAILS_ROOT, 'public', 'timetables', "#{@route.full_code_hyptenated}.json")
+      times = JSON.parse(File.read(timetable_path))
     
-    @timetable = {}
-    times.each do |frequency, journeys|
-      @timetable[frequency] = []
-      journeys['journeys'].each do |journey|
-        @timetable[frequency] << journey
+      @timetable = {}
+      times.each do |frequency, journeys|
+        @timetable[frequency] = []
+        journeys['journeys'].each do |journey|
+          @timetable[frequency] << journey
+        end
       end
+    rescue
+      # do nothing
     end
-
+    
     respond_to do |format|
       format.html { render }
     end
