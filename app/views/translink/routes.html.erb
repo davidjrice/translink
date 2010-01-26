@@ -29,7 +29,7 @@ and the stop data that translink has provided. However, it should still be possi
         <td><%= r.stops.size %></td>
         <th><%= link_to "Map", maps_path(:area => r.area.code, :service => r.service.code, :route => r.code) %></th>
         <th><%= link_to "JSON", stops_path(:area => r.area.code, :service => r.service.code, :route => r.code) %></th>
-        <th><%= link_to "Times", stops_path(:area => r.area.code, :service => r.service.code, :route => r.code) %></th>
+        <th><%= link_to "Times", "/timetables/#{r.area.code}#{r.service.code}-#{r.code}.json" %></th>
         
       </tr>
     <%- end -%>
