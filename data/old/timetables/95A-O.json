@@ -1,0 +1,5 @@
+{
+  "weekdays": {"journeys":[[{"stop":"Belfast, Donegall Sq East","time":"2030"},{"stop":"Belfast, (Europa Buscentre)","time":"..."},{"stop":"Belfast, Great Northern Mall","time":"2031"},{"stop":"Belfast, Shaftesbury Square","time":"2033"},{"stop":"Donegall Rd, Broadway","time":"2037"},{"stop":"Royal Hospital, Royal\nHospitals","time":"2040"}]],"frequency":"weekdays"},
+  "sunday": null,
+  "saturday": null
+}

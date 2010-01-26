@@ -1,0 +1,5 @@
+{
+  "weekdays": {"journeys":[[{"stop":"Sandyknowes, Ballyhenry Road","time":"0738"},{"stop":"Prince Charles Way, Glebe Rd","time":"0740"},{"stop":"Carnmoney, Carnvue","time":"0742"},{"stop":"Fairview Rd, Beverley Shops","time":"0744"},{"stop":"Fairview Rd, Ballyduff Shops","time":"0745"},{"stop":"Ballyfore Road, Doagh Road","time":"0747"},{"stop":"Doagh Road, Cherrylands","time":"0749"},{"stop":"Cloughfern, Station Road","time":"0752"},{"stop":"East Antrim Institute, FHE","time":"0754"},{"stop":"Belfast, Donegall Sq West","time":"0812"}],[{"stop":"Sandyknowes, Ballyhenry Road","time":"..."},{"stop":"Prince Charles Way, Glebe Rd","time":"0820"},{"stop":"Carnmoney, Carnvue","time":"0822"},{"stop":"Fairview Rd, Beverley Shops","time":"0825"},{"stop":"Fairview Rd, Ballyduff Shops","time":"0826"},{"stop":"Ballyfore Road, Doagh Road","time":"0828"},{"stop":"Doagh Road, Cherrylands","time":"0834"},{"stop":"Cloughfern, Station Road","time":"0840"},{"stop":"East Antrim Institute, FHE","time":"0842"},{"stop":"Belfast, Donegall Sq West","time":"0900"}]],"frequency":"weekdays"},
+  "sunday": null,
+  "saturday": null
+}

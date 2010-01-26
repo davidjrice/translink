@@ -1,0 +1,5 @@
+{
+  "weekdays": {"journeys":[[{"stop":"Belfast, Queen Street","time":"0750"},{"stop":"Royal Hospital, Grosvenor Rd","time":"0754"},{"stop":"Springvale, West Circular\nRoad","time":"0758"},{"stop":"Monagh Road, Bus stop","time":"0802"},{"stop":"Glen Road, St Teresa's","time":"0804"},{"stop":"Glen Road, Glencolin","time":"0808"},{"stop":"Suffolk Road, Woodbourne","time":"0812"},{"stop":"Suffolk Road, Glengoland\nRoundabout","time":"0814"},{"stop":"Stewartstown Rd, Dairy Fm\nCtr","time":"0814"},{"stop":"Brian's Well Road, Glenkeen","time":"0818"},{"stop":"Poleglass Est, Pembrooke\nLoop","time":"0821"}]],"frequency":"weekdays"},
+  "sunday": null,
+  "saturday": null
+}

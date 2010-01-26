@@ -1,0 +1,5 @@
+{
+  "weekdays": {"journeys":[[{"stop":"Belfast, Queen Street","time":"1640"},{"stop":"Blacks Road, Oakhurst","time":"1655"},{"stop":"Ladybrook, Turning Circle","time":"1702"}],[{"stop":"Belfast, Queen Street","time":"1740"},{"stop":"Blacks Road, Oakhurst","time":"1755"},{"stop":"Ladybrook, Turning Circle","time":"1800"}]],"frequency":"weekdays"},
+  "sunday": null,
+  "saturday": null
+}

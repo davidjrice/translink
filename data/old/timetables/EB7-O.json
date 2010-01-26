@@ -1,0 +1,5 @@
+{
+  "weekdays": {"journeys":[[{"stop":"Forestside, Sainsbury","time":"1055"},{"stop":"Wynchurch Avenue, Bus stop","time":"1058"},{"stop":"Annadale Embkmnt, Annadale\nCr","time":"1105"},{"stop":"Elgin Street, Dunnes Stores","time":"1110"},{"stop":"Annadale Embkmnt, Annadale\nCr","time":"1118"},{"stop":"Forestside, Sainsbury","time":"1125"}],[{"stop":"Forestside, Sainsbury","time":"1335"},{"stop":"Wynchurch Avenue, Bus stop","time":"1338"},{"stop":"Annadale Embkmnt, Annadale\nCr","time":"1345"},{"stop":"Elgin Street, Dunnes Stores","time":"1350"},{"stop":"Annadale Embkmnt, Annadale\nCr","time":"1358"},{"stop":"Forestside, Sainsbury","time":"1405"}],[{"stop":"Forestside, Sainsbury","time":"1550"},{"stop":"Wynchurch Avenue, Bus stop","time":"1553"},{"stop":"Annadale Embkmnt, Annadale\nCr","time":"1600"},{"stop":"Elgin Street, Dunnes Stores","time":"1605"},{"stop":"Annadale Embkmnt, Annadale\nCr","time":"1613"},{"stop":"Forestside, Sainsbury","time":"1620"}]],"frequency":null},
+  "sunday": null,
+  "saturday": null
+}

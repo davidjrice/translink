@@ -1,0 +1,5 @@
+{
+  "weekdays": {"journeys":[[{"stop":"Belfast, Donegall Sq East","time":"1830"},{"stop":"Belfast, (Europa Buscentre)","time":"1832"},{"stop":"Royal Hospital, Royal\nHospitals","time":"1840"}],[{"stop":"Belfast, Donegall Sq East","time":"1900"},{"stop":"Belfast, (Europa Buscentre)","time":"1902"},{"stop":"Royal Hospital, Royal\nHospitals","time":"1910"}],[{"stop":"Belfast, Donegall Sq East","time":"1930"},{"stop":"Belfast, (Europa Buscentre)","time":"1932"},{"stop":"Royal Hospital, Royal\nHospitals","time":"1940"}],[{"stop":"Belfast, Donegall Sq East","time":"2000"},{"stop":"Belfast, (Europa Buscentre)","time":"2002"},{"stop":"Royal Hospital, Royal\nHospitals","time":"2010"}]],"frequency":"weekdays"},
+  "sunday": null,
+  "saturday": null
+}

@@ -1,0 +1,5 @@
+{
+  "weekdays": {"journeys":[[{"stop":"Westbank Road, Stena Line","time":"1545"},{"stop":"Duncrue Road, Cleansing\nDepot","time":"1550"},{"stop":"Duncrue Street, Ulsterbus","time":"1553"},{"stop":"Belfast, Donegall Pl Boots","time":"1605"}],[{"stop":"Westbank Road, Stena Line","time":"1635"},{"stop":"Duncrue Road, Cleansing\nDepot","time":"1640"},{"stop":"Duncrue Street, Ulsterbus","time":"1643"},{"stop":"Belfast, Donegall Pl Boots","time":"1655"}],[{"stop":"Westbank Road, Stena Line","time":"1705"},{"stop":"Duncrue Road, Cleansing\nDepot","time":"1710"},{"stop":"Duncrue Street, Ulsterbus","time":"1713"},{"stop":"Belfast, Donegall Pl Boots","time":"1725"}],[{"stop":"Westbank Road, Stena Line","time":"1735"},{"stop":"Duncrue Road, Cleansing\nDepot","time":"1740"},{"stop":"Duncrue Street, Ulsterbus","time":"1743"},{"stop":"Belfast, Donegall Pl Boots","time":"1755"}],[{"stop":"Westbank Road, Stena Line","time":"1805"},{"stop":"Duncrue Road, Cleansing\nDepot","time":"1810"},{"stop":"Duncrue Street, Ulsterbus","time":"1813"},{"stop":"Belfast, Donegall Pl Boots","time":"1825"}]],"frequency":"weekdays"},
+  "sunday": null,
+  "saturday": null
+}

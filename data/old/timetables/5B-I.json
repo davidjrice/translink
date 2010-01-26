@@ -1,0 +1,5 @@
+{
+  "weekdays": {"journeys":[[{"stop":"Braniel, Farmhurst Green","time":"0520"},{"stop":"Whincroft Road, Bus stop","time":"0523"},{"stop":"Castlereagh Rd, Clonduff","time":"0526"},{"stop":"Bloomfield Road, Roundabout","time":"0530"},{"stop":"Short Strand, Mountpottinger\nLink","time":"0535"},{"stop":"Belfast, City Hall","time":"0540"}]],"frequency":"weekdays"},
+  "sunday": null,
+  "saturday": {"journeys":[[{"stop":"Braniel, Farmhurst Green","time":"0520"},{"stop":"Whincroft Road, Bus stop","time":"0523"},{"stop":"Castlereagh Rd, Clonduff","time":"0526"},{"stop":"Bloomfield Road, Roundabout","time":"0530"},{"stop":"Short Strand, Mountpottinger\nLink","time":"0535"},{"stop":"Belfast, City Hall","time":"0540"}]],"frequency":"saturday"}
+}

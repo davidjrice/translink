@@ -1,0 +1,5 @@
+{
+  "weekdays": {"journeys":[[{"stop":"Belfast, Donegall Sq West","time":"0745"},{"stop":"Belfast, Queens Square Albert\nClock","time":"0748"},{"stop":"Odyssey, Complex","time":"0750"},{"stop":"Queens Road, Science Park","time":"0752"}],[{"stop":"Belfast, Donegall Sq West","time":"0845"},{"stop":"Belfast, Queens Square Albert\nClock","time":"0848"},{"stop":"Odyssey, Complex","time":"0850"},{"stop":"Queens Road, Science Park","time":"0852"}]],"frequency":"weekdays"},
+  "sunday": null,
+  "saturday": null
+}
