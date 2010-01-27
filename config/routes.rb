@@ -9,6 +9,10 @@ ActionController::Routing::Routes.draw do |map|
     translink.timetables '/:area/:service/:route/timetables.:format', :action => 'timetables'
   end
 
+  map.with_options :controller => 'iphone' do |iphone|
+    iphone.index '/iphone', :action => 'index'
+  end
+  
   map.root :controller => 'translink'
 
 end

@@ -1,6 +1,13 @@
 class TranslinkController < ApplicationController
   
   # GET /(index.html)
+  def index
+    respond_to do |format|
+      format.html { render }
+      format.iphone { render }
+    end
+  end
+  
   
   # GET /areas.json
   # GET /areas
@@ -10,6 +17,7 @@ class TranslinkController < ApplicationController
     respond_to do |format|
       format.json { render :json => @areas.to_json }
       format.html { render }
+      format.iphone { render }
     end
   end
   

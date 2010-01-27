@@ -30,6 +30,7 @@ data.each do |key,values|
           }
           
           new_stop.save
+          # TODO rename to Node
           RouteStop.create :stop_id => new_stop.id, :route_id => route.id
         end
       end
