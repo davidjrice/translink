@@ -13,8 +13,16 @@ Focusing only on translink Metro data.
 
 ## TODO
 
-* link stops to routes & timetable data
-* Work out what to do with the "Unknown" stops. Delimited by X in the routes.json. These were a bunch of stops that were not defined as inward / outward.
+* implement script/import functionality with [atco library](http://github.com/davidjrice/atco)
+* create a model to hold journey data
+* create a model for holding gps 'point' data of points along the routes that are at a high resolution. Basically requesting routes from google between each set of two points on a route.
+* implement an api function to return the set of points for a route to allow programatic drawing of route overlays
+* implement a function to return the current bus locations based on the received timestamp.
+* implement a timetable data api call
+
+## Wishlist
+
+* automatically determine a bus's 'bearing' for current bus locations functionality. To allow for right-side-up drawing of sprites.
 
 ## Getting Started
 

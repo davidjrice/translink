@@ -7,7 +7,19 @@ class TranslinkController < ApplicationController
       format.iphone { render }
     end
   end
-  
+
+  # GET /current_bus_locations/:timestamp.json
+  def current_bus_locations
+    # get all the routes
+    # iterate each service
+      # find the journey that exists at that time
+      # find the nearest departure / arrival point to the time
+        # return the point if it is exactly matching the current time
+          # for a given departure / arrival
+        # return a midway point of the location between two stops
+      # also return the compass direction [OPTIONAL]
+    [{:service => '9AI', :lat => 'xxx', :lon => 'xxx'},{...}]
+  end
   
   # GET /areas.json
   # GET /areas
