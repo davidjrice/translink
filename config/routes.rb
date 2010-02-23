@@ -11,6 +11,7 @@ ActionController::Routing::Routes.draw do |map|
 
   map.with_options :controller => 'iphone' do |iphone|
     iphone.index '/iphone', :action => 'index'
+    iphone.services '/iphone/areas/:id/services', :action => 'services'
   end
   
   map.root :controller => 'translink'

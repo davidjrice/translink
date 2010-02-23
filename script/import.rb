@@ -13,5 +13,7 @@ files.each do |f|
   # * route
   # * route_stop
   # * stop
+  
+  # * lat / lon from easting / northing
 
 end

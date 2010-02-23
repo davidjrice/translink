@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Metro</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" > 
+  <link href="/stylesheets/reset.css" rel="stylesheet" type="text/css">
+  <link href="/stylesheets/iphone.css" rel="stylesheet" type="text/css">
+  <meta name = "viewport" content = "width = 320px, user-scalable = no">  
+  
+  <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+  <script type="text/javascript"> google.load("jquery", "1.3.2"); </script>
+  <script src="/javascripts/jqtouch.min.js" type="application/x-javascript" charset="utf-8"></script>
+  <script type="text/javascript" charset="utf-8">
+  $.jQTouch({
+          icon: 'images/metro.png',
+      statusBar: 'black',
+      startupScreen: 'images/loading.png',
+      preloadImages: [
+        'images/logo.png',
+        'images/gps-icon.png',
+      ]
+      });
+  </script>
+</head>
+
+<body>
+  
+  <div id="header">
+    <img src="images/logo.png">
+  </div>
+  
+  <div id="nearest">
+    <img src="images/gps-icon.png">
+    Locate Nearest Bus Stop
+  </div>
+  
+  <h2>Timetables</h2>
+  
+  <div id="navigation" class="section">
+    <ol>
+      <%- @services.each do |service| -%>
+      <li class="metro<%= service.area.code %>">
+        <div class="route-number"><a href="#area-<%= service.area.code %>">Metro <%= service.area.code + service.code %></div> 
+        <div class="route-name"><%= service.name %></a></div>
+      </li>
+      <%- end -%>
+    </ol>
+  </div>
+  
+  <!-- <div id="metro1-timetable" class="section">
+      <strong>Metro 1 — Antrim Road</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </div>   -->
+  
+  <div id="footer">
+      Developed by #code4pizza. Route information kindly provided by Translink, timetable data acquired for proof of concept purposes only.
+  </div>
+  
+</body>
+
+</html>
